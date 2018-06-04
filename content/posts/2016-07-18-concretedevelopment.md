@@ -5,9 +5,9 @@ title: Concrete Development & Path Dependent Capital in Afghanistan
 type: post
 ---
 
-<img src="{{ site.baseurl }}/assets/cementafghanistan_4.jpg" width="700px">
-<img src="{{ site.baseurl }}/assets/cementafghanistan_1.jpg" width="700px">
-<img src="{{ site.baseurl }}/assets/cementafghanistan_3.jpg" width="700px">
+<img src="/assets/cementafghanistan_4.jpg" width="700px">
+<img src="/assets/cementafghanistan_1.jpg" width="700px">
+<img src="/assets/cementafghanistan_3.jpg" width="700px">
 
 <a href="http://www.theatlantic.com/photo/2013/07/afghanistan-in-the-1950s-and-60s/100544/">It's hard to imagine, but in the 1950s and 1960s Afghanistan was in the throws of mid-century developmental modernism</a>. Western and Communist Bloc aid flowed in. Western-style structures rose around Kabul. West German machinery filled new government printing plants and Czechoslovakia invested in a number heavy industrial projects, including a 5 million dollar concrete factory located outside of Kabul. 
 

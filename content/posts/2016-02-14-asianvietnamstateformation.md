@@ -5,7 +5,7 @@ title: Readings in the History of Asian State Capacity
 type: post
 ---
 
-<img src="{{ site.baseurl }}/assets/annamcochinchina.png" alt="" width="750px"/>
+<img src="/assets/annamcochinchina.png" alt="" width="750px"/>
 <small>
 A clip from the <b>"Royaume d' Annan comprenant les Royaumes de Tumkin et de la Cocinchine / Designé par les Peres de la Compagnie de Iesus; I. Somer sculp. - 1600-1699"</b>, from the La Bibliothèque nationale de France.
 </small>

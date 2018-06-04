@@ -9,7 +9,7 @@ type: post
 ---
 
 <div class="media image">
-<img src="{{ site.baseurl }}/assets/motorcycle1970s.jpg" />
+<img src="/assets/motorcycle1970s.jpg" />
 <center><small>Using a really powerful library to do something simple.</small></center>
 </div>
 

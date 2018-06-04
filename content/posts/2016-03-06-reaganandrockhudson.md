@@ -5,7 +5,7 @@ title: Rock Hudson's Telegraph to Nancy Reagan Before His Death From AIDS
 type: post
 ---
 
-<img src="{{ site.baseurl }}/assets/reagannote.jpg" alt="" width="700px"/>
+<img src="/assets/reagannote.jpg" alt="" width="700px"/>
 
 <small>
 The Ronald Reagan Presidential Library care of <strong><a href="http://www.buzzfeed.com/chrisgeidner/nancy-reagan-turned-down-rock-hudsons-plea-for-help-seven-we#.tdjDew1BDZ">Chris Geidner of BuzzFeed News</a></strong>

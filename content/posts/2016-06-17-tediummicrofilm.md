@@ -5,7 +5,7 @@ title: The Weird History of Microfilm
 type: post
 ---
 
-<a href="http://tedium.co/2016/06/14/microfiche-microfilm-libraries-history/"><img src="{{ site.baseurl }}/assets/microfilmhistory.jpg" width="720px"/></a>
+<a href="http://tedium.co/2016/06/14/microfiche-microfilm-libraries-history/"><img src="/assets/microfilmhistory.jpg" width="720px"/></a>
 
 <small>
 <a href="https://commons.wikimedia.org/wiki/File:Microfilm_reader_for_articles_and_daily_papers.jpg">From the University of Haifa Younes, Soraya Nazarian Library, vis-a-vis Atlas Obscura.</a>

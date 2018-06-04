@@ -25,7 +25,7 @@ The UN Comtrade system uses its own coding scheme. Thus, we do not make queries 
 I have list of countries and their corresponding codes saved as .csv files. I have a trade partner list (uncomtrade_partners.csv) and list of reporting countries (uncomtrade_reporting.csv), both of which have the following layout:
 
 <div>
-<img src="{{ site.baseurl }}/assets/comtradelist.png" />
+<img src="/assets/comtradelist.png" />
 </div>
 
 The countries I wish to query have a column (data.frame$V3) with a 1 indicating the country I wish to include in my query.

@@ -10,7 +10,7 @@ Just a quick heads-up: I've been using __[Yhat's new Python IDE, Rodeo](https://
 
 <center>
 <a href="https://www.yhat.com/products/rodeo">
-<img src="{{ site.baseurl }}/assets/rodeo-text-light.png" width="600px">
+<img src="/assets/rodeo-text-light.png" width="600px">
 </a>
 </center>
 
@@ -19,6 +19,6 @@ I've been looking for a Python-based environment that feels like __[good ol' RSt
 
 
 <center>
-<img src="{{ site.baseurl }}/assets/rodeo_screenshot-shortcuts-entire-screen.png" width="600px">
+<img src="/assets/rodeo_screenshot-shortcuts-entire-screen.png" width="600px">
 </center>
 

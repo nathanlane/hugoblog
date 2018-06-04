@@ -10,11 +10,11 @@ type: post
 
 The __[Planetary DatArt blog](http://planetarydatart.blogspot.se/)__ digitized and evaluated the Apollo 11 lunar landing from some a collection of government diagrams, detailing the project in an interesting [blog post](http://planetarydatart.blogspot.se/2012/07/apollo-11-landing-site-map.html).
 
-<div class="media image"><img src="{{ site.baseurl }}/assets/a11_1.gif" alt="Planetary Data." /></div>
+<div class="media image"><img src="/assets/a11_1.gif" alt="Planetary Data." /></div>
 
 Originally from the Apollo 11 Preliminary Science Report volume. With some custom perspective for the American audience __[added here]({{ site.baseurl }}/assets/a11_bbl.jpg).__
 
-<p><img src="{{ site.baseurl }}/assets/a11_bbl.jpg" alt="Planetary Data." width="70%" height="70%"></p>
+<p><img src="/assets/a11_bbl.jpg" alt="Planetary Data." width="70%" height="70%"></p>
 
 
 Paired with another multi-dimensional perspective given by Georgia Tech's __[Yanni Loukissas](http://yloukissas.com/)__:

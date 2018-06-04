@@ -8,7 +8,7 @@ title: Input-Output Tables & the Leontief Inverse in R - Part I.
 type: post
 ---
 
-<img src="{{ site.baseurl }}/assets/surahammarssweden.jpg" width="700px"/>
+<img src="/assets/surahammarssweden.jpg" width="700px"/>
 <small>Surahammars Ironworks/Surahammars Järnbruk, Sweden, 1919.  
 <a href="www.tekniskamuseet.se/1/706.html">From Sweden's Tekniska Museet photo collection</a>.</small>
 
