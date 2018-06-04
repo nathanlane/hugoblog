@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My Cool New Site"
+theme = "hyde"
+
+[params]
+  layoutReverse = true
