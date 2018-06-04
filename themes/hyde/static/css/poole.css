@@ -61,6 +61,14 @@ html {
 body {
   color: #515151;
   background-color: #fff;
+
+  font-family: "Open Sans", Helvetica, Arial;
+  font-size: .8rem;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: .5px;
+  line-height: 1.5rem;
+  text-transform: none;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -83,9 +91,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
-}
+} 
 h1 {
   font-size: 2rem;
+  font-family: "Source Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 1.25px;
+  line-height: 50px;
+  text-transform: none;
+  color: #3A4046;
 }
 h2 {
   margin-top: 1rem;
@@ -232,8 +247,12 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+  font-family: "Open Sans";
+  font-size: .7rem;
+  font-weight: normal;
+  color: #fff;
+  line-height: 1.5rem;
+  letter-spacing: 1.4px;
 }
 
 

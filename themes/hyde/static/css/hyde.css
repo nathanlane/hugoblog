@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -54,10 +54,15 @@ html {
  */
 
 .sidebar {
+  font-family: "Open Sans", sans-serif;
   text-align: center;
   padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
-  background-color: #202020;
+  color: #fff;
+  background-color: #2a333c;
+  font-size: .7rem;
+  line-height: 1.25rem;
+  letter-spacing: 1.4px;
+
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -73,14 +78,21 @@ html {
 /* Sidebar links */
 .sidebar a {
   color: #fff;
+
 }
 
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: "Source Sans", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 3.75px;
+  line-height: 70px;
+  margin-bottom: 10px;
+  /*font-size: 3.5rem;*/
+  /*text-transform: uppercase;*/
 }
 
 /* Sidebar nav */
@@ -93,7 +105,8 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  color: #fff;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -111,6 +124,7 @@ a.sidebar-nav-item:focus {
     right:  1rem;
     bottom: 1rem;
     left:   1rem;
+    right:  2rem;
   }
 }
 
