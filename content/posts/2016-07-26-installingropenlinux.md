@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-07-26T00:00:00Z"
+date: "2016-07-26"
 title: 'Quick Note: Upgrading to Microsoft Open R in Linux'
 type: post
 ---

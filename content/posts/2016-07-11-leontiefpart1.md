@@ -3,7 +3,7 @@ author: Nathaniel
 categories:
 - Tutorial
 - Input-Output
-date: "2016-07-11T00:00:00Z"
+date: "2016-07-11"
 title: Input-Output Tables & the Leontief Inverse in R - Part I.
 type: post
 ---

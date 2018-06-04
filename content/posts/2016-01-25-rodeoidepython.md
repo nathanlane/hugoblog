@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-01-25T00:00:00Z"
+date: "2016-01-25"
 published: true
 title: 'Quick Note: A New Python IDE for Data Work (& RStudio Lovers)'
 type: post

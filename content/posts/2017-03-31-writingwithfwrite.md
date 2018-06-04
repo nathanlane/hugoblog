@@ -2,7 +2,7 @@
 author: Nathaniel
 categories:
 - Tutorial
-date: "2017-03-31T00:00:00Z"
+date: "2017-03-31"
 title: 'Quick Note: Writing large .csv files in R with fwrite()! and beyond'
 type: post
 ---

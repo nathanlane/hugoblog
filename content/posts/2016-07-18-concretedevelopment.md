@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-07-18T00:00:00Z"
+date: "2016-07-18"
 title: Concrete Development & Path Dependent Capital in Afghanistan
 type: post
 ---

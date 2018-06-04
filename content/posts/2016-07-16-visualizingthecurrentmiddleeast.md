@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-07-16T00:00:00Z"
+date: "2016-07-16"
 title: Mapping Developments Middle East
 type: post
 ---

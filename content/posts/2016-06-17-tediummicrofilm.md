@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-06-17T00:00:00Z"
+date: "2016-06-17"
 title: The Weird History of Microfilm
 type: post
 ---

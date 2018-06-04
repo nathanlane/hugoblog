@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-03-28T00:00:00Z"
+date: "2016-03-28"
 title: Stalinist Russia from the Trondheim Archives
 type: post
 ---

@@ -2,7 +2,7 @@
 author: Nathaniel
 categories:
 - Tutorial
-date: "2016-01-27T00:00:00Z"
+date: "2016-01-27"
 published: true
 title: 'Quick Note: Using ''ff'' to quickly save giant data sets in R'
 type: post

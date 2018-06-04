@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-07-07T00:00:00Z"
+date: "2016-07-07"
 title: Forty Years of the S (& R) Programming Language
 type: post
 ---

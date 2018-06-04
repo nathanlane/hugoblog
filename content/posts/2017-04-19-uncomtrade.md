@@ -1,7 +1,7 @@
 ---
 author: Nathaniel
 categories: []
-date: "2017-04-19T00:00:00Z"
+date: "2017-04-19"
 published: true
 status: publish
 tags:

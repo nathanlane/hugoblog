@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-02-14T00:00:00Z"
+date: "2016-02-14"
 title: Readings in the History of Asian State Capacity
 type: post
 ---

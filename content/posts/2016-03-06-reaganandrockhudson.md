@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-03-06T00:00:00Z"
+date: "2016-03-06"
 title: Rock Hudson's Telegraph to Nancy Reagan Before His Death From AIDS
 type: post
 ---

@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-07-14T00:00:00Z"
+date: "2016-07-14"
 title: One Helluva Property Right
 type: post
 ---

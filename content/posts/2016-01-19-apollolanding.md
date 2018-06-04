@@ -2,7 +2,7 @@
 author: Nathaniel
 categories:
 - visualization
-date: "2016-01-19T00:00:00Z"
+date: "2016-01-19"
 published: true
 title: Digitizing & (Re-) Visualizing the Apollo 11 Landing
 type: post

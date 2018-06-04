@@ -1,6 +1,6 @@
 ---
 author: Nathaniel
-date: "2016-04-12T00:00:00Z"
+date: "2016-04-12"
 title: A Hunt for the Oldest Government Computer
 type: post
 ---
