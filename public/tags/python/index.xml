@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Nathan Lane</title>
+    <link>http://nathanlane.github.io/tags/python/</link>
+    <description>Recent content in Python on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 Oct 2014 16:16:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial: Manipulating PDFs in Python (to Scrape Them).</title>
+      <link>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</link>
+      <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</guid>
+      <description>When digitizing old data, we often start with a pile of scanned documents we must reorganize. Much time is spent manually trudging through scans, deducing what variables exist, and selecting the tables we eventually wish to turn into machine-readable data. When you have hundreds of multi-page PDFS, this can be a painful experience. However, automating PDF manipulation with Python can save major time.
+The Problem We start with scans of old, provincial statistical yearbooks for a Southeast Asian country.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: A Beginner&#39;s Guide to Scraping Historic Table Data</title>
+      <link>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</link>
+      <pubDate>Sun, 05 Oct 2014 02:05:28 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</guid>
+      <description>This is a simple introduction to scraping tables from historic (scanned) documents. It is by no means definitive. Instead, this is a broad overview aimed at researchers with minimal programming experience tackling smaller digitization projects--say, nothing more than 200 pages. I focus on OCRing material with ABBYY FineReader, a popular commercial program for OCRing. ABBYY has a relatively gentle learning curve and, importantly, straightforward table functionality. &amp;nbsp;  For those more comfortable with the command line and programming, or for open source advocates, I suggest free programmatic alternatives for each tutorial step.</description>
+    </item>
+    
+    <item>
+      <title>A Deep Learning Bibliography</title>
+      <link>http://nathanlane.github.io/posts/2014-09-22-a-deep-learning-bibliography/</link>
+      <pubDate>Mon, 22 Sep 2014 21:19:08 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-22-a-deep-learning-bibliography/</guid>
+      <description>A fantastic and extensive bibliography plus github cataloging deep learning resources/code/libraries, etc. from http://deeplearning.university. An amazing time vortex.
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>A great primer on cleaning OCRd data with Python &amp; Regular Expressions.</title>
+      <link>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</link>
+      <pubDate>Wed, 03 Sep 2014 06:04:44 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</guid>
+      <description>Link: Cleaning OCR’d text with Regular Expressions Often the pain of optical character recognition isn&#39;t the OCRing procedure itself, it is cleaning the tiny, little inconsistencies that plague OCRd content. This is especially true when we OCR historical material: even high quality scans can have a speckle or two that get recognized as gibberish.
+Adept use of Regular Expressions (regex) coupled with simple Python (or Ruby scripts--or heck, even Notepad++) can be a powerful means of removing nasty errors from OCRd text/CSV files.</description>
+    </item>
+    
+  </channel>
+</rss>

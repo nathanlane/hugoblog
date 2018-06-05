@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Nathan Lane</title>
+    <link>http://nathanlane.github.io/categories/python/</link>
+    <description>Recent content in Python on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Sep 2014 06:04:44 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A great primer on cleaning OCRd data with Python &amp; Regular Expressions.</title>
+      <link>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</link>
+      <pubDate>Wed, 03 Sep 2014 06:04:44 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</guid>
+      <description>Link: Cleaning OCR’d text with Regular Expressions Often the pain of optical character recognition isn&#39;t the OCRing procedure itself, it is cleaning the tiny, little inconsistencies that plague OCRd content. This is especially true when we OCR historical material: even high quality scans can have a speckle or two that get recognized as gibberish.
+Adept use of Regular Expressions (regex) coupled with simple Python (or Ruby scripts--or heck, even Notepad++) can be a powerful means of removing nasty errors from OCRd text/CSV files.</description>
+    </item>
+    
+  </channel>
+</rss>

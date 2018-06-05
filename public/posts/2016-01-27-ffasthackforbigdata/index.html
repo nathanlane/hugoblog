@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.41" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Quick Note: Using &#39;ff&#39; to quickly save giant data sets in R &middot; Nathan Lane</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Open+Sans:400,600,800">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Nathan Lane" />
+
+  
+</head>
+
+  <body class=" layout-reverse">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://nathanlane.github.io/"><h1>Nathan Lane</h1></a>
+      <p class="lead">
+       Economist, Ph.D. Postdoctoral Researcher at MIT, Lecturer at Monash University.
+      </p>
+
+      <p>Find me on <a href="http://twitter.com/straightedge">@straightedge</a>. Or email me at <a href="mailto:nlane@mit.edu">nlane@mit.edu</a>. Edited from Hyde, hosted on GitHub</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="http://nathanlane.github.io/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Quick Note: Using &#39;ff&#39; to quickly save giant data sets in R</h1>
+  <span class="post-date">Wed, Jan 27, 2016</span>
+  
+
+<div class="media image">
+<img src="/assets/motorcycle1970s.jpg" />
+<center><small>Using a really powerful library to do something simple.</small></center>
+</div>
+
+<p>For a current project, I am having to repeatedly manipulate and save a hundred datasets, each with about 4 million observations. While R tools like <code>fread()</code>, part of <strong><a href="https://cran.r-project.org/web/packages/data.table/index.html">the <code>data.table</code> library</a></strong>, make it trivial to load massive data sets into memory, <em>writing</em> these data sets&ndash;and doing so repeatedly&ndash;is another story..</p>
+
+<p>When trying to save big data sets, many of folks first recommend the <code>write.table()</code> function, which gives some people performance gains over the default <code>write.csv()</code> method. For my project, <code>write.table()</code> wasn&rsquo;t cutting it and, instead, often crashed my system.</p>
+
+<p>Enter the <strong><a href="https://cran.r-project.org/web/packages/ff/index.html"><code>ff</code> library</a></strong>, an incredibly handy tool for working with big data. In fact, ff nimbly deals with some of R&rsquo;s serious memory issues (<strong><a href="http://ff.r-forge.r-project.org/bit&amp;ff2.1-2_WU_Vienna2010.pdf">see a more technical guide here.</a></strong>). Instead of doing anything fancy with ff, however, I realized one could harness the library to simply save problematic data sets. The performance gains were striking.</p>
+
+<h4 id="a-simple-alternative-to-write-table">A simple alternative to write.table():</h4>
+
+<p>Below I take a data.table object I was manipulating (perhaps in a loop), convert it into an &ldquo;ff dataframe&rdquo; (ffdf), which I can then save using <code>ff</code>&rsquo;s speedy .csv file writing function.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#f92672">library</span>(magrittr) <span style="color:#75715e"># For use of piping %&gt;%.</span>
+<span style="color:#f92672">library</span>(data.table) <span style="color:#75715e"># I use data.table to manipulate large datasets.</span>
+<span style="color:#f92672">library</span>(ff) <span style="color:#75715e"># And the key package we&#39;ll use to save.</span>
+
+  <span style="color:#75715e"># (Let&#39;s say I perform a bunch of data.table manipulations here)</span>
+
+  <span style="color:#75715e"># Start with the data.table object,</span>
+  mygiant_datatable <span style="color:#f92672">%&gt;%</span>
+
+    <span style="color:#75715e"># ... transform it into an ff dataframe,</span>
+    as.ffdf( <span style="color:#ae81ff">.</span> ) <span style="color:#f92672">%&gt;%</span>
+
+    <span style="color:#75715e"># Write the ffdf object using ff&#39;s csv writing function.</span>
+    write.csv.ffdf( <span style="color:#ae81ff">.</span> , file <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;/my/file/path/myfile.csv&#34;</span>)</code></pre></div>
+
+<p>Note: the type of data table (mygiant_datatable) I was working with was quite simple, composed of only a few numeric columns. Thus, coercing the data into an ffdf object was no problemo.</p>
+
+<p>Of course, in the cheap workaround above, the <code>as.ffdf()</code> adds a costly step (time-wise). However, it was well worth the benefit of utilizing the <code>write.csv.ffdf()</code> function &hellip; and worth not crashing <em>ad nauseum</em>.</p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>

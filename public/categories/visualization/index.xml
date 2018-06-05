@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Nathan Lane</title>
+    <link>http://nathanlane.github.io/categories/visualization/</link>
+    <description>Recent content in Visualization on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Jan 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/categories/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Digitizing &amp; (Re-) Visualizing the Apollo 11 Landing</title>
+      <link>http://nathanlane.github.io/posts/2016-01-19-apollolanding/</link>
+      <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-01-19-apollolanding/</guid>
+      <description>The Planetary DatArt blog digitized and evaluated the Apollo 11 lunar landing from some a collection of government diagrams, detailing the project in an interesting blog post.
+ Originally from the Apollo 11 Preliminary Science Report volume. With some custom perspective for the American audience added here.
+Paired with another multi-dimensional perspective given by Georgia Tech&amp;rsquo;s Yanni Loukissas:
+ Source: from Yanni&amp;rsquo;s Visual.ly page.</description>
+    </item>
+    
+    <item>
+      <title>Visualization: Oslo, Minnesota</title>
+      <link>http://nathanlane.github.io/posts/2015-12-28-oslo-minnesota/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-12-28-oslo-minnesota/</guid>
+      <description>Norwegian population settlement in the United States (and Canada) at the turn of the century. From the &amp;quot;Locating Lutherans&amp;quot; project. Originally from (I believe), Olaf Morgan Norlie&amp;#39;s &amp;quot;History of the Norwegian People in America Paperback&amp;quot; (1925). On the subject of historic Scandinavian migration and its effect in Scandinavia, I highly recommend a recent job market paper by my colleagues Mounir Karadja and Erik Prawitz, &amp;quot;Exit, Voice and Political Change: Evidence from Swedish Mass Migration to the United States&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>

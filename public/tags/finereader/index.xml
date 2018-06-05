@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finereader on Nathan Lane</title>
+    <link>http://nathanlane.github.io/tags/finereader/</link>
+    <description>Recent content in Finereader on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Oct 2014 02:05:28 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/tags/finereader/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial: A Beginner&#39;s Guide to Scraping Historic Table Data</title>
+      <link>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</link>
+      <pubDate>Sun, 05 Oct 2014 02:05:28 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</guid>
+      <description>This is a simple introduction to scraping tables from historic (scanned) documents. It is by no means definitive. Instead, this is a broad overview aimed at researchers with minimal programming experience tackling smaller digitization projects--say, nothing more than 200 pages. I focus on OCRing material with ABBYY FineReader, a popular commercial program for OCRing. ABBYY has a relatively gentle learning curve and, importantly, straightforward table functionality. &amp;nbsp;  For those more comfortable with the command line and programming, or for open source advocates, I suggest free programmatic alternatives for each tutorial step.</description>
+    </item>
+    
+  </channel>
+</rss>

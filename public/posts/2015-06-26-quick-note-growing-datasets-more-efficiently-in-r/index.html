@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.41" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Tutorial: Growing Datasets in R &middot; Nathan Lane</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Open+Sans:400,600,800">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Nathan Lane" />
+
+  
+</head>
+
+  <body class=" layout-reverse">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://nathanlane.github.io/"><h1>Nathan Lane</h1></a>
+      <p class="lead">
+       Economist, Ph.D. Postdoctoral Researcher at MIT, Lecturer at Monash University.
+      </p>
+
+      <p>Find me on <a href="http://twitter.com/straightedge">@straightedge</a>. Or email me at <a href="mailto:nlane@mit.edu">nlane@mit.edu</a>. Edited from Hyde, hosted on GitHub</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="http://nathanlane.github.io/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Tutorial: Growing Datasets in R</h1>
+  <span class="post-date">Fri, Jun 26, 2015</span>
+  <div class="media image"><img src="/assets/pushingworkers_fieldmuseum.jpg" alt="From the Field Museum collection" /></div>
+<p><small>Figure: <a href="http://fieldmuseumphotoarchives.tumblr.com/">From the Field Museum archives, 1920, Photographer Herbert P. Burtch, Oriental Institute. "Men moving Totem Pole outside Field Museum by train."</a></small></p>
+
+<p><code>Note: This was originally some notes to RAs but I figured it may be useful for other people out there.</code></p>
+
+<p>I've had some discussion with econ folks and RAs who are working with giant datasets in R for the first time. In particular, those having to <em>"harvest"</em> or <em>"grow" </em>unweildy datasets. R is notoriously slow when it comes to expanding datasets, such as when you want to increntally append rows to a file with results from a scraping API, or combine a giant stack of raw text files from another text mining project.</p>
+
+<p>The usual "good" method for concatination uses a <code>do.call</code> function with the rbind function. This method essentially takes a list of stuff and passes them as arguments all at once to <code>rbind</code>. In other words, you can take a list of <em>data.frame</em> names and bind the rows together in one motion: <code>do.call("rbind", &lt;&lt;&lt;A list of data.frame names&gt;&gt;&gt;)</code>.</p>
+
+<h3>A Usual Approach </h3>
+
+<p>A common task I encounter is grabbing a chunk of files from a directory and combining them into a dataset. Such a task requires three steps. First, generating a list of files from a directory that match a pattern (e.g. all the .csv files in a directory) using the <code>list.files()</code> function. Next, looping over this list of files and loading them into R with with <code>lapply</code>, applying the <code>read.csv()</code> function to a list of files. Then, finally, using <code>do.call()</code> to <code>rbind</code>, or stack, all the loaded <em>.csv</em> files into a single dataset.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># Grab the list of files in the directory &#34;/home/user/foo&#34; that end in &#34;.csv&#34;</span>
+csvlist <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">list.files</span>( path <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;/home/user/foo&#34;</span>,
+				pattern <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;.csv&#34;</span>,
+				all.files <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span>,
+				full.names <span style="color:#f92672">=</span> <span style="color:#66d9ef">TRUE</span>,
+				recursive <span style="color:#f92672">=</span> <span style="color:#66d9ef">FALSE</span> )
+
+<span style="color:#75715e"># &#34;Apply&#34; the read.csv function to the list of csv files.</span>
+csvloaded <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">lapply</span>( csvlist, read.csv )
+
+<span style="color:#75715e"># Append the loaded .csv files into a list.</span>
+dataset1 <span style="color:#f92672">&lt;-</span><span style="color:#66d9ef">do.call</span>( <span style="color:#e6db74">&#34;rbind&#34;</span> , csvloaded )</code></pre></div>
+
+<p>
+This is all great, but it can still take a ton of time. Note, I condense the <code>lapply</code> function and the <code>do.call</code>+<code>rbind</code> line into one.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R">ptm <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">proc.time</span>()
+dataset1 <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">do.call</span>( <span style="color:#e6db74">&#34;rbind&#34;</span>, <span style="color:#66d9ef">lapply</span>( csvlist, read.csv) )
+<span style="color:#66d9ef">proc.time</span>() <span style="color:#f92672">-</span> ptm
+<span style="color:#f92672">&gt;</span> user system elapsed
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">48.840</span> <span style="color:#ae81ff">0.148</span> <span style="color:#ae81ff">50.241</span></code></pre></div>
+
+<p>If you're doing more complicated tasks or working with large sets of data, processing time can balloon.</p>
+
+<h3>A faster method.</h3>
+
+<p>Using <a href="https://github.com/Rdatatable/data.table/wiki">the <code>data.table</code> package</a> can speed things along if we're trying to get big data into R efficiently (<a href="I highly recommend checking out the github for the project">I highly recommend checking out the github for the project</a>).<br />
+The <code>rbindlist</code> function included in the package is incredibly fast and written in C. In addition the <code>fread</code> function is built to efficiently read data into R.</p>
+
+<p>Below I replace the normal <code>read.csv</code> function with <code>fread()</code>, and replace <code>do.call()</code>+<code>rbind()</code> with <code>rbindlist()</code>.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#f92672">library</span>(data.table)
+dataset2 <span style="color:#f92672">&lt;-</span> rbindlist( <span style="color:#66d9ef">lapply</span>( csvlist, fread ) )
+<span style="color:#66d9ef">proc.time</span>() <span style="color:#f92672">-</span> ptm
+<span style="color:#f92672">&gt;</span> user system elapsed
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">4.044</span> <span style="color:#ae81ff">0.084</span> <span style="color:#ae81ff">4.144</span></code></pre></div>
+
+
+<p>Both methods deliver identical datasets but there are some real efficiency gains when using <code>fread</code> and <code>rbindlist</code> from the super useful <code>data.table</code> package.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#66d9ef">identical</span>( dataset1, dataset2 )
+<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">TRUE</span></code></pre></div>
+
+<p>This can have pretty amazing payoffs when working trying to load massive data sets into R to process.</p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>

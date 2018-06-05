@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Links on Nathan Lane</title>
+    <link>http://nathanlane.github.io/categories/links/</link>
+    <description>Recent content in Links on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Nov 2015 01:51:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wozniakian Destruction</title>
+      <link>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</link>
+      <pubDate>Sat, 28 Nov 2015 01:51:41 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</guid>
+      <description>&#34;Wozniakian Destruction&#34; - The History of Phone Hacking &amp; its Influence on 1970s Silicon Valley     A bundle of blue boxes from phreaking.wikia.com  &amp;nbsp;
+FiveThiryEight Signal&#39;s Series had a great small documentary piece on the history of phone hacking in 1960s-1980s, through the lens of Steve Wozniak and Steve Job&#39;s pre-Apple bedroom-based manufacturing of &#34;blue bloxes,&#34; devices used for manipulating the nation&#39;s telecommunication infrastructure. The tidy punchline: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Quick Notes - Coding Stata do-files with Sublime in Unix/Linux</title>
+      <link>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</link>
+      <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</guid>
+      <description>I am used to writing code in notepad programs, such as N++ and the fantastic Sublime Text 3. Here&#39;s a quick note on connecting a powerful coding notepad in Linux to Stata.
+&amp;nbsp; Sublime, like many of these programming-oriented editing notepads, have massively powerful tools that crush Stata&#39;s default editor. Moreover, since many people are simultaneously juggling Python, R, and Stata (and more) scripts for a single project, the ability to work from one programming-oriented environment is nice.</description>
+    </item>
+    
+    <item>
+      <title>On developmentalism, planning, &amp; early big data in Allende&#39;s Chile.</title>
+      <link>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</link>
+      <pubDate>Thu, 09 Oct 2014 01:10:15 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</guid>
+      <description>&#34;In Allende’s Chile, a futuristic op room was to bring socialism into the computer age.&#34;
+Link: From the New Yorker - `The Planning Machine&#39; By Evgeny Morozov ``The consultant, Stafford Beer, had been brought in by Chile’s top planners to help guide the country down what Salvador Allende, its democratically elected Marxist leader, was calling `the Chilean road to socialism.&#39; Beer was a leading theorist of cybernetics—a discipline born of midcentury efforts to understand the role of communication in controlling social, biological, and technical systems.</description>
+    </item>
+    
+  </channel>
+</rss>

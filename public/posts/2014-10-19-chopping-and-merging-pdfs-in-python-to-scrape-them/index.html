@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.41" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Tutorial: Manipulating PDFs in Python (to Scrape Them). &middot; Nathan Lane</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Open+Sans:400,600,800">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Nathan Lane" />
+
+  
+</head>
+
+  <body class=" layout-reverse">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://nathanlane.github.io/"><h1>Nathan Lane</h1></a>
+      <p class="lead">
+       Economist, Ph.D. Postdoctoral Researcher at MIT, Lecturer at Monash University.
+      </p>
+
+      <p>Find me on <a href="http://twitter.com/straightedge">@straightedge</a>. Or email me at <a href="mailto:nlane@mit.edu">nlane@mit.edu</a>. Edited from Hyde, hosted on GitHub</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="http://nathanlane.github.io/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Tutorial: Manipulating PDFs in Python (to Scrape Them).</h1>
+  <span class="post-date">Sun, Oct 19, 2014</span>
+  <p>When digitizing old data, we often start with a pile of scanned documents we must reorganize. Much time is spent manually trudging through scans, deducing what variables exist, and selecting the tables we eventually wish to turn into machine-readable data. When you have hundreds of multi-page PDFS, this can be a painful experience. However, automating PDF manipulation with Python can save major time.</p>
+<h3>The Problem</h3>
+<p>We start with scans of old, provincial statistical yearbooks for a Southeast Asian country.</p>
+<p>Each yearbook page corresponds to a variable we want: page 1 has land statistics, page 2 has rice statistics, page 3 irrigation, etc..</p>
+<p>We want to reorganize this stack of yearbooks into something that is easier to digitize and organized by variable, not province. In essence (to the data scientist) we need to "reshape" our scanned PDF data.</p>
+<p>To restate the problem:</p>
+<ul>
+<li>
+<h4>Have: Province x Variable PDFs</h4>
+<p>Most old historical data comes in the following format: hard copy volumes organized by province, state, region, etc., each with the same set of tables (<em>cough</em> variables).</li>
+<li>
+<h4>Need: Variable x Province PDFs</h4>
+<p>And most of the time we want to pull certain pages from each geographic volume and create a new document for each variable.</li>
+</ul>
+<h3>The Code</h3>
+<p>The following is written for Python 3.* and uses the <strong><a title="pyPDF2" href="https://pypi.python.org/pypi/PyPDF2" target="_blank">PyPDF2 package</a></strong> (which is a <strong><a title="PyPdf" href="http://pybrary.net/pyPdf/" target="_blank">fork of the original PyPdf package</a></strong>), as well as the <code>OS</code> module for directory manipulation.</p>
+<p>The code starts with a directory containing our multi-page PDFs and creates a sub-folder to store individual pages, <code>/splits.</code></p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#75715e">#The only two modules you need:</span>
+<span style="color:#f92672">import</span> os
+<span style="color:#f92672">from</span> PyPDF2 <span style="color:#f92672">import</span> PdfFileReader, PdfFileWriter, PdfFileMerger
+
+<span style="color:#75715e">#The directory of your (multipage) PDF files.</span>
+start_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;/our/working/path&#34;</span> <span style="color:#75715e"># Main working directory with PDFs to chop/clean</span>
+
+<span style="color:#75715e">#Make the following dirs if it doesn&#39;t exist.</span>
+splits <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(start_dir, <span style="color:#e6db74">&#34;splits1&#34;</span>)
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(splits): os<span style="color:#f92672">.</span>makedirs(splits)</code></pre></div>
+
+
+<p>Second, our stack-o-PDFs are read, chopped, and their pages are placed in (page) numbered folders.</p>
+<p>The following code chunk begins at the <code>/start_dir</code>, the file containing our original PDF files. We read each scan and then loop over its pages with the line, <code>for i in xrange(in_file_pdf.numPages)</code>. Each page <code>i</code> is saved to a variable folder, corresponding to its page number: first pages are saved in <code>start_dir/splits/1</code>; second pages, into <code>start_dir/splits/2</code> folder, etc..</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#66d9ef">for</span> filename <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>listdir(start_dir):
+    <span style="color:#75715e">#Run the following on PDFs only.</span>
+    <span style="color:#66d9ef">if</span> filename<span style="color:#f92672">.</span>endswith(<span style="color:#e6db74">&#39;.pdf&#39;</span>):
+    <span style="color:#75715e">#Show current multi-page PDF.</span>
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Splitting &#34;</span><span style="color:#f92672">+</span>filename)
+
+        <span style="color:#75715e">#Define input files, paths.</span>
+        in_file <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(start_dir,filename)
+        in_file_pdf <span style="color:#f92672">=</span> PdfFileReader(file(in_file, <span style="color:#e6db74">&#34;rb&#34;</span>)) <span style="color:#75715e">#(be explicit about binary file)</span>
+
+        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> xrange(in_file_pdf<span style="color:#f92672">.</span>numPages):
+            output <span style="color:#f92672">=</span> PdfFileWriter()
+
+            <span style="color:#75715e">#Make subfolder for each page, but only once.</span>
+            num_path <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(splits,str(i))
+            <span style="color:#66d9ef">if</span> <span style="color:#f92672">not</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(num_path): os<span style="color:#f92672">.</span>makedirs(num_path)
+
+            <span style="color:#75715e">#Add i page to output, define output path, save, close outputstream.</span>
+            output<span style="color:#f92672">.</span>addPage(in_file_pdf<span style="color:#f92672">.</span>getPage(i))
+            out_file_pdf <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>splitext(filename)[<span style="color:#ae81ff">0</span>]<span style="color:#f92672">+</span>str(i)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;.pdf&#34;</span> <span style="color:#75715e">#Add i number to new name.</span>
+            out_file <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(splits,str(i),out_file_pdf)
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;Saving &#34;</span><span style="color:#f92672">+</span>out_file)
+            outputStream <span style="color:#f92672">=</span> file(out_file, <span style="color:#e6db74">&#34;wb&#34;</span>)
+            output<span style="color:#f92672">.</span>write(outputStream)
+            outputStream<span style="color:#f92672">.</span>close()</code></pre></div>
+
+<p>Third, after chopping and saving, we combine the separated pages into variable-based PDFs.</p>
+<p>The following code loops over each page folder (<code>/splits/1</code>, <code>/splits/2</code>,<code>...</code>). Using pyPDF2's <code>PdfFilerMerge </code>function, we combine pages within each folder into a single PDF file.</p>
+<p>Hence, the first page of each provincial yearbook is combined into a new file (i.e. the pages in <code>/splits/1</code> become 1.pdf), which we can then scrape/digitize/pre-process/whatever.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#66d9ef">for</span> root, dirs, filenames <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>walk(splits):
+    <span style="color:#66d9ef">for</span> dir <span style="color:#f92672">in</span> dirs:
+        merger <span style="color:#f92672">=</span> PdfFileMerger()
+        dirname <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(splits, dir)
+        <span style="color:#66d9ef">print</span>(dirname)
+        <span style="color:#66d9ef">for</span> filename <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>listdir(dirname):
+            <span style="color:#66d9ef">print</span>(filename)
+            in_file_pdf <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(splits, dir, filename)
+            <span style="color:#66d9ef">print</span>(in_file_pdf)
+            merger<span style="color:#f92672">.</span>append(PdfFileReader(file(in_file_pdf, <span style="color:#e6db74">&#34;rb&#34;</span>)))
+
+        out_file_pdf <span style="color:#f92672">=</span> str(dir)<span style="color:#f92672">+</span><span style="color:#e6db74">&#34;.pdf&#34;</span>
+        out_file <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(splits, out_file_pdf)
+        outputStream <span style="color:#f92672">=</span> file(out_file, <span style="color:#e6db74">&#34;wb&#34;</span>)
+        merger<span style="color:#f92672">.</span>write(outputStream)
+        outputStream<span style="color:#f92672">.</span>close()</code></pre></div>
+
+<p>Importantly, your project will probably look much different from this, but combining the <code>OS module</code> with the <code>pyPDF2 package</code> in Python can make many splitting/merging tasks trivial. Digitizing old data often entails mind-numbing file manipulation, so a little Python can go a long way.</p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>

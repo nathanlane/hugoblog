@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bibliography on Nathan Lane</title>
+    <link>http://nathanlane.github.io/tags/bibliography/</link>
+    <description>Recent content in Bibliography on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 Sep 2014 21:19:08 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/tags/bibliography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Deep Learning Bibliography</title>
+      <link>http://nathanlane.github.io/posts/2014-09-22-a-deep-learning-bibliography/</link>
+      <pubDate>Mon, 22 Sep 2014 21:19:08 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-22-a-deep-learning-bibliography/</guid>
+      <description>A fantastic and extensive bibliography plus github cataloging deep learning resources/code/libraries, etc. from http://deeplearning.university. An amazing time vortex.
+&amp;nbsp;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Nathan Lane</title>
+    <link>http://nathanlane.github.io/tags/tutorials/</link>
+    <description>Recent content in Tutorials on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Nov 2015 12:08:48 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/tags/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick Notes - Coding Stata do-files with Sublime in Unix/Linux</title>
+      <link>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</link>
+      <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</guid>
+      <description>I am used to writing code in notepad programs, such as N++ and the fantastic Sublime Text 3. Here&#39;s a quick note on connecting a powerful coding notepad in Linux to Stata.
+&amp;nbsp; Sublime, like many of these programming-oriented editing notepads, have massively powerful tools that crush Stata&#39;s default editor. Moreover, since many people are simultaneously juggling Python, R, and Stata (and more) scripts for a single project, the ability to work from one programming-oriented environment is nice.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Training an OCR Engine</title>
+      <link>http://nathanlane.github.io/posts/2014-12-06-training-an-ocr-engine-to-recognize-old-stuff-abbyy-finereader/</link>
+      <pubDate>Sat, 06 Dec 2014 13:42:46 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-12-06-training-an-ocr-engine-to-recognize-old-stuff-abbyy-finereader/</guid>
+      <description>In a previous tutorial I covered the basics of digitizing old stats with ABBYY FineReader (&amp;amp; alternative digitization tools). Now, I dig into some important digitization nitty gritty: training optical character recognition software to properly read historical content.
+&amp;nbsp;
+Most historical digitization projects will entail training. Old statistical documents often use long-gone proprietary typefaces. While modern OCR software can easily read Arials and Times New Romans, it needs help with more exotic typography; this is where training come in.</description>
+    </item>
+    
+    <item>
+      <title>A great primer on cleaning OCRd data with Python &amp; Regular Expressions.</title>
+      <link>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</link>
+      <pubDate>Wed, 03 Sep 2014 06:04:44 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</guid>
+      <description>Link: Cleaning OCR’d text with Regular Expressions Often the pain of optical character recognition isn&#39;t the OCRing procedure itself, it is cleaning the tiny, little inconsistencies that plague OCRd content. This is especially true when we OCR historical material: even high quality scans can have a speckle or two that get recognized as gibberish.
+Adept use of Regular Expressions (regex) coupled with simple Python (or Ruby scripts--or heck, even Notepad++) can be a powerful means of removing nasty errors from OCRd text/CSV files.</description>
+    </item>
+    
+  </channel>
+</rss>

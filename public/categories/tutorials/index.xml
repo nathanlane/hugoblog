@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Nathan Lane</title>
+    <link>http://nathanlane.github.io/categories/tutorials/</link>
+    <description>Recent content in Tutorials on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial: R Code Style for Empirical Economists</title>
+      <link>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</link>
+      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</guid>
+      <description>Make your code understandable. IBM&#39;s data center in the 1960s, Toronto. Source:ibm-1401.info/ Heuristics, Hunches, &amp;amp; Why the Heck We Care. We hear many horror stories about big names having their results over turned over because of problems in our code. The struggle is real.
+With this in mind, even simple rules of thumb used in programming can have large payoffs for social scientists. Especially since best practices are never discussed in graduate coursework.</description>
+    </item>
+    
+    <item>
+      <title>Quick Notes - Coding Stata do-files with Sublime in Unix/Linux</title>
+      <link>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</link>
+      <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</guid>
+      <description>I am used to writing code in notepad programs, such as N++ and the fantastic Sublime Text 3. Here&#39;s a quick note on connecting a powerful coding notepad in Linux to Stata.
+&amp;nbsp; Sublime, like many of these programming-oriented editing notepads, have massively powerful tools that crush Stata&#39;s default editor. Moreover, since many people are simultaneously juggling Python, R, and Stata (and more) scripts for a single project, the ability to work from one programming-oriented environment is nice.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial Data in R</title>
+      <link>http://nathanlane.github.io/posts/2015-10-18-taking-geospatial-data-to-r-how-to-ditch-arcgis/</link>
+      <pubDate>Sun, 18 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-10-18-taking-geospatial-data-to-r-how-to-ditch-arcgis/</guid>
+      <description>Taking Geospatial Data to R (&amp; how to ditch ArcGIS) For R users it&#39;s very straightforward to ditch ArcGIS (for most tasks) in favor of doing everything through an R script. There are many reasons to do this:
+ First, if you can do GIS work on your Linux system or Mac without having to run things through a lame emulator. Second, you can cut yourself loose from dealing with the clunky ArcGIS licensing system.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Training an OCR Engine</title>
+      <link>http://nathanlane.github.io/posts/2014-12-06-training-an-ocr-engine-to-recognize-old-stuff-abbyy-finereader/</link>
+      <pubDate>Sat, 06 Dec 2014 13:42:46 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-12-06-training-an-ocr-engine-to-recognize-old-stuff-abbyy-finereader/</guid>
+      <description>In a previous tutorial I covered the basics of digitizing old stats with ABBYY FineReader (&amp;amp; alternative digitization tools). Now, I dig into some important digitization nitty gritty: training optical character recognition software to properly read historical content.
+&amp;nbsp;
+Most historical digitization projects will entail training. Old statistical documents often use long-gone proprietary typefaces. While modern OCR software can easily read Arials and Times New Romans, it needs help with more exotic typography; this is where training come in.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Manipulating PDFs in Python (to Scrape Them).</title>
+      <link>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</link>
+      <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</guid>
+      <description>When digitizing old data, we often start with a pile of scanned documents we must reorganize. Much time is spent manually trudging through scans, deducing what variables exist, and selecting the tables we eventually wish to turn into machine-readable data. When you have hundreds of multi-page PDFS, this can be a painful experience. However, automating PDF manipulation with Python can save major time.
+The Problem We start with scans of old, provincial statistical yearbooks for a Southeast Asian country.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: A Beginner&#39;s Guide to Scraping Historic Table Data</title>
+      <link>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</link>
+      <pubDate>Sun, 05 Oct 2014 02:05:28 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</guid>
+      <description>This is a simple introduction to scraping tables from historic (scanned) documents. It is by no means definitive. Instead, this is a broad overview aimed at researchers with minimal programming experience tackling smaller digitization projects--say, nothing more than 200 pages. I focus on OCRing material with ABBYY FineReader, a popular commercial program for OCRing. ABBYY has a relatively gentle learning curve and, importantly, straightforward table functionality. &amp;nbsp;  For those more comfortable with the command line and programming, or for open source advocates, I suggest free programmatic alternatives for each tutorial step.</description>
+    </item>
+    
+    <item>
+      <title>A great primer on cleaning OCRd data with Python &amp; Regular Expressions.</title>
+      <link>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</link>
+      <pubDate>Wed, 03 Sep 2014 06:04:44 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</guid>
+      <description>Link: Cleaning OCR’d text with Regular Expressions Often the pain of optical character recognition isn&#39;t the OCRing procedure itself, it is cleaning the tiny, little inconsistencies that plague OCRd content. This is especially true when we OCR historical material: even high quality scans can have a speckle or two that get recognized as gibberish.
+Adept use of Regular Expressions (regex) coupled with simple Python (or Ruby scripts--or heck, even Notepad++) can be a powerful means of removing nasty errors from OCRd text/CSV files.</description>
+    </item>
+    
+    <item>
+      <title>An Investigative Journalist&#39;s Guide to Geolocating Media</title>
+      <link>http://nathanlane.github.io/posts/2014-08-23-an-investigative-journalists-guide-to-geolocating/</link>
+      <pubDate>Sat, 23 Aug 2014 18:00:46 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-23-an-investigative-journalists-guide-to-geolocating/</guid>
+      <description>Link: An Investigative Journalist&#39;s Guide to Geolocating Media 
+bell?ngcat, a crowd-funded start-up of Middle East wonks, investigative journalists, and researchers, has made some waves for demonstrating how to geo-locate an Iraqi ISIS training camp.
+Here are a couple of fantastic guides to some of the techniques they use to geolocate media, combining picture/video data alongside common geographic tools. One of the interesting techniques used lately consists of extracting and mapping metadata from photographs using tools like Panoramio.</description>
+    </item>
+    
+    <item>
+      <title>The Bastards Book of Regular Expressions by Dan Nguyen</title>
+      <link>http://nathanlane.github.io/posts/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</link>
+      <pubDate>Wed, 16 Jul 2014 07:24:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</guid>
+      <description>The Bastards Book of Regular Expressions by Dan Nguyen  I love regexes even more because they make it possible – if not trivial – to do research and analysis that is otherwise impossible, because believe it or not, most research and analysis start out with just giant blobs of text   The Bastard&amp;#8217;s Book of Regex is a great (free!) text on cleaning up crappy data with regular expressions.</description>
+    </item>
+    
+  </channel>
+</rss>

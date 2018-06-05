@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Polling on Nathan Lane</title>
+    <link>http://nathanlane.github.io/tags/polling/</link>
+    <description>Recent content in Polling on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Aug 2014 03:30:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/tags/polling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The data on white anxiety over Hispanic immigration</title>
+      <link>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</link>
+      <pubDate>Fri, 15 Aug 2014 03:30:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</guid>
+      <description>The data on white anxiety over Hispanic immigration (Via my pal, UMass Prof. Arin Dube)
+A fantastic piece on racial anxiety and views on race. A nice little combination of academic research and polling insights. 
+ </description>
+    </item>
+    
+  </channel>
+</rss>

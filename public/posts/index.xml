@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nathan Lane</title>
+    <link>http://nathanlane.github.io/posts/</link>
+    <description>Recent content in Posts on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a Dataset from UN Comtrade&#39;s API</title>
+      <link>http://nathanlane.github.io/posts/2017-04-19-uncomtrade/</link>
+      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2017-04-19-uncomtrade/</guid>
+      <description>The following is a simple program for building data sets using the United Nation&amp;rsquo;s COMTRADE API.
+Note: this code does not apply to the &amp;ldquo;Bulk download&amp;rdquo; API, which allows users to download entire chunks of annual or monthly data. Instead, this program is for making specific, repeated queries for import (export) data between certain countries.
+1. First Things First: Some Prepation. My script loops over lists of reporting countries and their counterparts.</description>
+    </item>
+    
+    <item>
+      <title>Quick Note: Writing large .csv files in R with fwrite()! and beyond</title>
+      <link>http://nathanlane.github.io/posts/2017-03-31-writingwithfwrite/</link>
+      <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2017-03-31-writingwithfwrite/</guid>
+      <description>The problem. R can be nasty when it comes to reading and writing &amp;ldquo;large&amp;rdquo; datasets. As practitioners, we often appeal to hacky practices, emergent libraries, alternatives methods to avoid crashing our systems during heavy jobs.
+One alternative I had the appealed to was the ff library , a great library for processing large data. Importantly, ff had an awesome function for quickly saving multi-gig .csv files (write.table.ffdf).
+Recently, however, write.</description>
+    </item>
+    
+    <item>
+      <title>Quick Note: Upgrading to Microsoft Open R in Linux</title>
+      <link>http://nathanlane.github.io/posts/2016-07-26-installingropenlinux/</link>
+      <pubDate>Tue, 26 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-07-26-installingropenlinux/</guid>
+      <description>Below is a guide to installing Microsoft Open R for those using Ubuntu Linux and R-Studio. Microsoft R Open (MRO) is a pretty powerful distribution of R (and yes, completely open source). It builds off (currently) R version 3.3.0, adding some darn useful enhancements, due in part to their use of Intel&amp;rsquo;s Math Kernel Library (MKL).
+What is R Open + MKL? What does this mean? Basically Microsoft R Open is an optimized version of your standard R, and can help tremendously if you&amp;rsquo;re doing, say, many intense vector or matrix-based operations.</description>
+    </item>
+    
+    <item>
+      <title>Concrete Development &amp; Path Dependent Capital in Afghanistan</title>
+      <link>http://nathanlane.github.io/posts/2016-07-18-concretedevelopment/</link>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-07-18-concretedevelopment/</guid>
+      <description>It&amp;rsquo;s hard to imagine, but in the 1950s and 1960s Afghanistan was in the throws of mid-century developmental modernism. Western and Communist Bloc aid flowed in. Western-style structures rose around Kabul. West German machinery filled new government printing plants and Czechoslovakia invested in a number heavy industrial projects, including a 5 million dollar concrete factory located outside of Kabul.
+Negotiated in 1955 by a new Minister of Finance, (General) Abdul Malik, who was inspired by the developmental planning of Turkey, the Czech-built plant opened in 1957 in the district of Jabal Saraj, near Kabul.</description>
+    </item>
+    
+    <item>
+      <title>Mapping Developments Middle East</title>
+      <link>http://nathanlane.github.io/posts/2016-07-16-visualizingthecurrentmiddleeast/</link>
+      <pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-07-16-visualizingthecurrentmiddleeast/</guid>
+      <description>Mapping The Manbij Offensive , summer 2016. The (currently ongoing) operation by Syrian Democratic Forces seeks to wrest control of Manbij from ISIS control:
+
+These beautiful visualizations of Syrian/Middle East conflict are from the portfolio of Imago Pyrenaei/LCarabinier, who I&amp;rsquo;ve seen cropping up on Reddit and GIS twitter (@LCarabinier).</description>
+    </item>
+    
+    <item>
+      <title>One Helluva Property Right</title>
+      <link>http://nathanlane.github.io/posts/2016-07-14-onehellofapropertyright/</link>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-07-14-onehellofapropertyright/</guid>
+      <description>Bloomberg published a long-form piece on the sale of a &amp;ldquo;Texas Ranch That&amp;rsquo;s the Size of a Small Nation&amp;rdquo;. In fact, the Waggoner Ranch property is the largest U.S. ranch within a single fence:
+
+The rapid expansion of the estate, from the late 1880s through the turn of the century, corresponds to the period covered by Dr. Rick Hornbeck&amp;rsquo;s great paper, &amp;ldquo;Barbed Wire: Property Rights and Agricultural Development&amp;rdquo; in the Quarterly Journal of Economics (2010).</description>
+    </item>
+    
+    <item>
+      <title>Input-Output Tables &amp; the Leontief Inverse in R - Part I.</title>
+      <link>http://nathanlane.github.io/posts/2016-07-11-leontiefpart1/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-07-11-leontiefpart1/</guid>
+      <description>Surahammars Ironworks/Surahammars Järnbruk, Sweden, 1919.
+From Sweden&amp;rsquo;s Tekniska Museet photo collection.
+In input-output economics, the Leontief inverse (i.e. [I-A]^-1) is ubiquitous. Named after the father of input-output economics, Wassily Leontief, the matrix is a compact representation of the ripple effects in an economy where industries are interconnected. A lone matrix coefficient conveys all direct and indirect effects on output in one sector required by a unit of output from another sector.</description>
+    </item>
+    
+    <item>
+      <title>Forty Years of the S (&amp; R) Programming Language</title>
+      <link>http://nathanlane.github.io/posts/2016-07-07-ahistoryofslanguage/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-07-07-ahistoryofslanguage/</guid>
+      <description>O.g. data scientist and S developer, Richard Becker, gave a shamelessly wonky keynote address on the &amp;ldquo;Forty Years of S&amp;rdquo; (and thus, the deep history of the R language). Great insights into the wild innovative collaborations (and mythologies) that grew out of Bell Labs, and dense with data science history &amp;ndash; including the birth of R&amp;rsquo;s &amp;ldquo;&amp;lt;-&amp;rdquo; arrow operator. Gold.
+ </description>
+    </item>
+    
+    <item>
+      <title>The Weird History of Microfilm</title>
+      <link>http://nathanlane.github.io/posts/2016-06-17-tediummicrofilm/</link>
+      <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-06-17-tediummicrofilm/</guid>
+      <description>
+ From the University of Haifa Younes, Soraya Nazarian Library, vis-a-vis Atlas Obscura. 
+The wonderful and underrated online publication, Tedium, has an intriguing (and hilarious) longform piece on the history of microfilm: Honey, I Shrunk The Page.
+ &#34;Microfilm’s first innovation: Improving carrier pigeon efficiency&#34; - Ernie Smith, Tedium  </description>
+    </item>
+    
+    <item>
+      <title>A Hunt for the Oldest Government Computer</title>
+      <link>http://nathanlane.github.io/posts/2016-04-12-muckrockshunt/</link>
+      <pubDate>Tue, 12 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-04-12-muckrockshunt/</guid>
+      <description>Last year Popular Mechanics and WOODtv reported that a single Amiga has been running non-stop for three decades, controlling the heating and cooling system of nineteen Michigan public schools.
+In the spirit of vintage computing, the prolofic researchers at Muckrock.com have a really great ongoing project: the hunt for the government&amp;rsquo;s oldest computer.
+Allan Lasser of MuckRock, in his original blog post for the project:
+ As the saying goes, “If it ain’t broke, don’t fix it.</description>
+    </item>
+    
+    <item>
+      <title>Stalinist Russia from the Trondheim Archives</title>
+      <link>http://nathanlane.github.io/posts/2016-03-28-trondheimarchives/</link>
+      <pubDate>Mon, 28 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-03-28-trondheimarchives/</guid>
+      <description>Delving into the fantastic collection of the Norwegian Municipal Archives of Trondheim, which has some eerie photograph&amp;rsquo;s from journalist Eirik Sundvor&amp;rsquo;s visit to Stalinist-era Soviet Union (among many other beautiful gems.)</description>
+    </item>
+    
+    <item>
+      <title>Rock Hudson&#39;s Telegraph to Nancy Reagan Before His Death From AIDS</title>
+      <link>http://nathanlane.github.io/posts/2016-03-06-reaganandrockhudson/</link>
+      <pubDate>Sun, 06 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-03-06-reaganandrockhudson/</guid>
+      <description>The Ronald Reagan Presidential Library care of Chris Geidner of BuzzFeed News 
+A great long read from BuzzFeed New&amp;rsquo;s Chris Geidner with a snippet of Rock Hudson&amp;rsquo;s telegram to longtime friend, Nancy Reagan. A few weeks before his death, the Hollywood star appealed to Reagan for assistence in transferring to a French military hospital for AIDS treatment. Quoting Hudson&amp;rsquo;s publicist at the time, Dale Olson:
+“ &amp;lsquo;Only one hospital in the world can offer necessary medical treatment to save life of Rock Hudson or at least alleviate his illness,&amp;rsquo; Olson wrote.</description>
+    </item>
+    
+    <item>
+      <title>Readings in the History of Asian State Capacity</title>
+      <link>http://nathanlane.github.io/posts/2016-02-14-asianvietnamstateformation/</link>
+      <pubDate>Sun, 14 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-02-14-asianvietnamstateformation/</guid>
+      <description>A clip from the &amp;ldquo;Royaume d&amp;rsquo; Annan comprenant les Royaumes de Tumkin et de la Cocinchine / Designé par les Peres de la Compagnie de Iesus; I. Somer sculp. - 1600-1699&amp;rdquo;, from the La Bibliothèque nationale de France. 
+The following is a reading list related to a long undertaking with my two co-authors a, Melissa Dell (Harvard) and Pablo Querubin (NYU), where we explore the historic roots of economic divergence in Asia.</description>
+    </item>
+    
+    <item>
+      <title>Quick Note: Using &#39;ff&#39; to quickly save giant data sets in R</title>
+      <link>http://nathanlane.github.io/posts/2016-01-27-ffasthackforbigdata/</link>
+      <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-01-27-ffasthackforbigdata/</guid>
+      <description>Using a really powerful library to do something simple.  For a current project, I am having to repeatedly manipulate and save a hundred datasets, each with about 4 million observations. While R tools like fread(), part of the data.table library, make it trivial to load massive data sets into memory, writing these data sets&amp;ndash;and doing so repeatedly&amp;ndash;is another story..
+When trying to save big data sets, many of folks first recommend the write.</description>
+    </item>
+    
+    <item>
+      <title>Quick Note: A New Python IDE for Data Work (&amp; RStudio Lovers)</title>
+      <link>http://nathanlane.github.io/posts/2016-01-25-rodeoidepython/</link>
+      <pubDate>Mon, 25 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-01-25-rodeoidepython/</guid>
+      <description>Just a quick heads-up: I&amp;rsquo;ve been using Yhat&amp;rsquo;s new Python IDE, Rodeo, which is pretty awesome for data-centric work.
+  
+I&amp;rsquo;ve been looking for a Python-based environment that feels like good ol&amp;rsquo; RStudio, an IDE for R that I keep returning to even over advanced text editors. Like RStudio, Rodeo crucially lets you preview active objects in your environment and view plots while editing away:</description>
+    </item>
+    
+    <item>
+      <title>Digitizing &amp; (Re-) Visualizing the Apollo 11 Landing</title>
+      <link>http://nathanlane.github.io/posts/2016-01-19-apollolanding/</link>
+      <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-01-19-apollolanding/</guid>
+      <description>The Planetary DatArt blog digitized and evaluated the Apollo 11 lunar landing from some a collection of government diagrams, detailing the project in an interesting blog post.
+ Originally from the Apollo 11 Preliminary Science Report volume. With some custom perspective for the American audience added here.
+Paired with another multi-dimensional perspective given by Georgia Tech&amp;rsquo;s Yanni Loukissas:
+ Source: from Yanni&amp;rsquo;s Visual.ly page.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Big GIS Data in R &amp; Functional Programming</title>
+      <link>http://nathanlane.github.io/posts/2016-01-02-gisfunctional/</link>
+      <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2016-01-02-gisfunctional/</guid>
+      <description>Caption: &#34;Thermal Map of North America. Delineating the Isothermal Zodiac, the Isothermal Axis of Identity, and its expansions up and down the &#39;Plateau&#39; &#34; From William Gilpin’s &#34;Mission of the North American People (1873).&#34; Via the &#34;Making Maps: DIY Cartography&#34; blog.  The Question How do I take over 100 NetCDF files, each containing thousands of layers of hourly raster data, and translate into dataset?
+I&#39;ll flesh out the problem more,</description>
+    </item>
+    
+    <item>
+      <title>Visualization: Oslo, Minnesota</title>
+      <link>http://nathanlane.github.io/posts/2015-12-28-oslo-minnesota/</link>
+      <pubDate>Mon, 28 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-12-28-oslo-minnesota/</guid>
+      <description>Norwegian population settlement in the United States (and Canada) at the turn of the century. From the &amp;quot;Locating Lutherans&amp;quot; project. Originally from (I believe), Olaf Morgan Norlie&amp;#39;s &amp;quot;History of the Norwegian People in America Paperback&amp;quot; (1925). On the subject of historic Scandinavian migration and its effect in Scandinavia, I highly recommend a recent job market paper by my colleagues Mounir Karadja and Erik Prawitz, &amp;quot;Exit, Voice and Political Change: Evidence from Swedish Mass Migration to the United States&amp;quot;.</description>
+    </item>
+    
+    <item>
+      <title>A Christmas with the Gipper &amp; Nancy, 1983.</title>
+      <link>http://nathanlane.github.io/posts/2015-12-25-reaganchristmas/</link>
+      <pubDate>Fri, 25 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-12-25-reaganchristmas/</guid>
+      <description>      Merry Christmas with the Gipper. Nancy and President Reagan, Christmas Eve, 1983. From the Ronald Reagan Presidential Library, National Archives and Records Administration, via the Retro Campaigns blog. </description>
+    </item>
+    
+    <item>
+      <title>Tutorial: R Code Style for Empirical Economists</title>
+      <link>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</link>
+      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</guid>
+      <description>Make your code understandable. IBM&#39;s data center in the 1960s, Toronto. Source:ibm-1401.info/ Heuristics, Hunches, &amp;amp; Why the Heck We Care. We hear many horror stories about big names having their results over turned over because of problems in our code. The struggle is real.
+With this in mind, even simple rules of thumb used in programming can have large payoffs for social scientists. Especially since best practices are never discussed in graduate coursework.</description>
+    </item>
+    
+    <item>
+      <title>1972 Thailand &amp; Burma</title>
+      <link>http://nathanlane.github.io/posts/2015-12-12-1972-thailand-burma/</link>
+      <pubDate>Sat, 12 Dec 2015 15:24:38 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-12-12-1972-thailand-burma/</guid>
+      <description>         Copyright the Nick DeWolf Foundation from their fantastic Nick DeWolf Archive Flickr page here.  I stumbled upon the Nick DeWolf Archive, a project from the Nick DeWolf Foundation, which housed a magnificent collection of photo dumps from his travels across Southeast Asia in the 1970s. </description>
+    </item>
+    
+    <item>
+      <title>Wozniakian Destruction</title>
+      <link>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</link>
+      <pubDate>Sat, 28 Nov 2015 01:51:41 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</guid>
+      <description>&#34;Wozniakian Destruction&#34; - The History of Phone Hacking &amp; its Influence on 1970s Silicon Valley     A bundle of blue boxes from phreaking.wikia.com  &amp;nbsp;
+FiveThiryEight Signal&#39;s Series had a great small documentary piece on the history of phone hacking in 1960s-1980s, through the lens of Steve Wozniak and Steve Job&#39;s pre-Apple bedroom-based manufacturing of &#34;blue bloxes,&#34; devices used for manipulating the nation&#39;s telecommunication infrastructure. The tidy punchline: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Quick Notes - Coding Stata do-files with Sublime in Unix/Linux</title>
+      <link>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</link>
+      <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</guid>
+      <description>I am used to writing code in notepad programs, such as N++ and the fantastic Sublime Text 3. Here&#39;s a quick note on connecting a powerful coding notepad in Linux to Stata.
+&amp;nbsp; Sublime, like many of these programming-oriented editing notepads, have massively powerful tools that crush Stata&#39;s default editor. Moreover, since many people are simultaneously juggling Python, R, and Stata (and more) scripts for a single project, the ability to work from one programming-oriented environment is nice.</description>
+    </item>
+    
+    <item>
+      <title>Data Janitors &amp; Data Carpentry.</title>
+      <link>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</link>
+      <pubDate>Sat, 14 Nov 2015 02:16:17 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</guid>
+      <description>Data Janitors and Data Carpentry: value in the nitty gritty?  &#34;Report on the investigation of engineer and janitor service, Board of education, city of Chicago&#34; (1913)  The fantastic machine learning-oriented podcast, Talking Machines, had an interview with computer scientist, David Mimno (also: his course syllabus on text mining for historians is awesome.). They spent some time discussing a recent essay by Mimno, that riffed off the New York Times &#34;</description>
+    </item>
+    
+    <item>
+      <title>Found Photos from Vietnam - a Digitization Project</title>
+      <link>http://nathanlane.github.io/posts/2015-11-08-found-photos-from-vietnam-a-digitization-project/</link>
+      <pubDate>Sun, 08 Nov 2015 18:28:05 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-08-found-photos-from-vietnam-a-digitization-project/</guid>
+      <description>More at chieu-hoi.com.  &amp;nbsp;
+Newly digitized photos from Vietnam war photographer, Charlie Haughey, appearing in his fantastic new book, A Weather Walked In. See also recent coverage in the Atlantic.
+
+&amp;nbsp;
+
+Video and story from A Weather Walked In&#39;s crowd-source project page.</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Interlocking Directorates, 1913</title>
+      <link>http://nathanlane.github.io/posts/2015-11-01-visualizing-interlocking-directorates-1913/</link>
+      <pubDate>Sun, 01 Nov 2015 10:19:24 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-01-visualizing-interlocking-directorates-1913/</guid>
+      <description>From the St.Louis Fed. Fraser site.  &amp;nbsp; &#34;Exhibit 243: Diagram Showing Affiliations of J.P. Morgan &amp; Co., National City Bank, First National Bank, Guaranty Trust Co. and Bankers Trust Co. of New York City with Large Corporations of the United States&#34; from the FED economic history blog. From the Money Trust Investigation : Investigation of Financial and Monetary Conditions in the United States Under House Resolutions Nos.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial Data in R</title>
+      <link>http://nathanlane.github.io/posts/2015-10-18-taking-geospatial-data-to-r-how-to-ditch-arcgis/</link>
+      <pubDate>Sun, 18 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-10-18-taking-geospatial-data-to-r-how-to-ditch-arcgis/</guid>
+      <description>Taking Geospatial Data to R (&amp; how to ditch ArcGIS) For R users it&#39;s very straightforward to ditch ArcGIS (for most tasks) in favor of doing everything through an R script. There are many reasons to do this:
+ First, if you can do GIS work on your Linux system or Mac without having to run things through a lame emulator. Second, you can cut yourself loose from dealing with the clunky ArcGIS licensing system.</description>
+    </item>
+    
+    <item>
+      <title>Soekarno and Khrushchev, 1960</title>
+      <link>http://nathanlane.github.io/posts/2015-09-02-625/</link>
+      <pubDate>Wed, 02 Sep 2015 13:37:52 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-09-02-625/</guid>
+      <description>  Indonesian President, Soekarno, and USSR&#39;s Khrushchev, 1960. Life Magazine. </description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Growing Datasets in R</title>
+      <link>http://nathanlane.github.io/posts/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</link>
+      <pubDate>Fri, 26 Jun 2015 11:57:06 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</guid>
+      <description>Figure: From the Field Museum archives, 1920, Photographer Herbert P. Burtch, Oriental Institute. &#34;Men moving Totem Pole outside Field Museum by train.&#34;
+Note: This was originally some notes to RAs but I figured it may be useful for other people out there.
+I&#39;ve had some discussion with econ folks and RAs who are working with giant datasets in R for the first time. In particular, those having to &#34;harvest&#34; or &#34;</description>
+    </item>
+    
+    <item>
+      <title>Deng Xiaoping in the U.S., 1979</title>
+      <link>http://nathanlane.github.io/posts/2015-05-23-deng-xiaoping-in-the-u-s-1979/</link>
+      <pubDate>Sat, 23 May 2015 14:39:45 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-05-23-deng-xiaoping-in-the-u-s-1979/</guid>
+      <description>Deng Xiaoping speaks in D.C., the year relations between the People&#39;s Republic of China and the U.S. normalized.
+[Citation: via the Asia Society blog]</description>
+    </item>
+    
+    <item>
+      <title>Hanoi, 1989</title>
+      <link>http://nathanlane.github.io/posts/2015-05-14-hanoi-1989/</link>
+      <pubDate>Thu, 14 May 2015 14:20:58 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-05-14-hanoi-1989/</guid>
+      <description>Workers commute: Hanoi, 1989.
+[Photo: David Alan Harvey of Magnum Photos, 1989]</description>
+    </item>
+    
+    <item>
+      <title>Useful new R programs from Stockholm.</title>
+      <link>http://nathanlane.github.io/posts/2015-05-04-some-solid-new-r-programs-from-sweden/</link>
+      <pubDate>Mon, 04 May 2015 02:24:01 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-05-04-some-solid-new-r-programs-from-sweden/</guid>
+      <description>There&#39;s a lot useful R programming that comes out of the Stockholm University economics community, like Mahmood Arai&#39;s code for estimating clustered standard errors--small programs that go a long way in making R more comfortable for Stata-minded econometrics folks. Whelp, my pal Sirus Dehdari, a metrics guy and fellow Ph.D. candidate in economics, has some fresh code for producing both regression tables (with spatially correlated errors and other useful stuff) and regression discontinuity plots--in the vein of Outreg and Binscatter in Stata, respectively.</description>
+    </item>
+    
+    <item>
+      <title>Data cleaning music: Nina Simone - Baltimore</title>
+      <link>http://nathanlane.github.io/posts/2015-04-29-data-cleaning-music-nina-simone-baltimore/</link>
+      <pubDate>Wed, 29 Apr 2015 01:03:38 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-04-29-data-cleaning-music-nina-simone-baltimore/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Suicides &amp; Churches in Early 20th Century Seattle</title>
+      <link>http://nathanlane.github.io/posts/2015-02-05-suicides-churches-in-early-20th-century-seattle/</link>
+      <pubDate>Thu, 05 Feb 2015 17:22:34 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-02-05-suicides-churches-in-early-20th-century-seattle/</guid>
+      <description>           From the  Making Maps blog. Fantastic plots from old sociology research, originally published in Calvin F. Schmid “Notes on Two Multiple-Variable Spot Maps” Social Forces, Vol. 6, No. 3. (Mar., 1928), pp. 378-382.  </description>
+    </item>
+    
+    <item>
+      <title>Review: Ezra Vogel&#39;s The Four Little Dragons - The Spread of Industrialization in East Asia</title>
+      <link>http://nathanlane.github.io/posts/2014-12-19-book-review-revisiting-ezra-vogels-the-four-little-dragons/</link>
+      <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-12-19-book-review-revisiting-ezra-vogels-the-four-little-dragons/</guid>
+      <description>Singapore, 1967. Location: &#34;North Bridge road just after Capitol theatre.&#34; Copyright David Ayer.
+&amp;nbsp;
+Sometimes the jacket covers of books are so dated that the obscure contents that still hold up in 2014. The Four Little Dragons was published in 1991, but the narrative still matters. Ezra Vogel&#39;s The Four Little Dragons is a comparative primer (lecture) that distills key narratives and lessons from four &#34;Asian miracle&#34; economies. Vogel skillfully narrates the rapid growth episodes of Hong Kong, Singapore, South Korea, and Taiwan in a slim volume.</description>
+    </item>
+    
+    <item>
+      <title>Micro Maps of Conflict &amp; the Weak States of Williamsburg</title>
+      <link>http://nathanlane.github.io/posts/2014-12-18-micro-maps-of-conflict-the-weak-states-of-williamsburg/</link>
+      <pubDate>Thu, 18 Dec 2014 04:14:06 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-12-18-micro-maps-of-conflict-the-weak-states-of-williamsburg/</guid>
+      <description>NYTimes infographics ahead of the times: a 1970s geography of Brooklyn street gangs.
+From this New York history blog and a spin-off piece from 1981.nyc &amp;amp; upcoming documentary, A Most Violent Year.</description>
+    </item>
+    
+    <item>
+      <title>From Iceland with Love</title>
+      <link>http://nathanlane.github.io/posts/2014-12-12-from-iceland-with-love/</link>
+      <pubDate>Fri, 12 Dec 2014 19:08:56 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-12-12-from-iceland-with-love/</guid>
+      <description>I got your back by Bara Heiða</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Training an OCR Engine</title>
+      <link>http://nathanlane.github.io/posts/2014-12-06-training-an-ocr-engine-to-recognize-old-stuff-abbyy-finereader/</link>
+      <pubDate>Sat, 06 Dec 2014 13:42:46 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-12-06-training-an-ocr-engine-to-recognize-old-stuff-abbyy-finereader/</guid>
+      <description>In a previous tutorial I covered the basics of digitizing old stats with ABBYY FineReader (&amp;amp; alternative digitization tools). Now, I dig into some important digitization nitty gritty: training optical character recognition software to properly read historical content.
+&amp;nbsp;
+Most historical digitization projects will entail training. Old statistical documents often use long-gone proprietary typefaces. While modern OCR software can easily read Arials and Times New Romans, it needs help with more exotic typography; this is where training come in.</description>
+    </item>
+    
+    <item>
+      <title>The VC &amp; ARVN, re-enacted.</title>
+      <link>http://nathanlane.github.io/posts/2014-11-12-the-vc-arvn-re-enacted/</link>
+      <pubDate>Wed, 12 Nov 2014 02:47:50 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-11-12-the-vc-arvn-re-enacted/</guid>
+      <description>﻿ We&#39;re sifting through historic Vietnamese data and Pablo, my co-author, sent this along the way.</description>
+    </item>
+    
+    <item>
+      <title>A new model of the labor market?</title>
+      <link>http://nathanlane.github.io/posts/2014-10-23-a-new-model-of-the-labor-market/</link>
+      <pubDate>Thu, 23 Oct 2014 02:17:14 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-23-a-new-model-of-the-labor-market/</guid>
+      <description>Link: Watch a stampede of idiots endlessly run straight into a spinning metal thing. &#34;Artist Dave Fothergill—who’s done visual effects for a bunch of National Geographic documentary films—has created a simple 3D animation of a crowd stampeding straight into a rotating metal thing. Watch as they all get threshed into a chaotic, flailing pile. It’s mesmerizing...&#34;
+From Death and Taxes Mag.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Manipulating PDFs in Python (to Scrape Them).</title>
+      <link>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</link>
+      <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</guid>
+      <description>When digitizing old data, we often start with a pile of scanned documents we must reorganize. Much time is spent manually trudging through scans, deducing what variables exist, and selecting the tables we eventually wish to turn into machine-readable data. When you have hundreds of multi-page PDFS, this can be a painful experience. However, automating PDF manipulation with Python can save major time.
+The Problem We start with scans of old, provincial statistical yearbooks for a Southeast Asian country.</description>
+    </item>
+    
+    <item>
+      <title>On developmentalism, planning, &amp; early big data in Allende&#39;s Chile.</title>
+      <link>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</link>
+      <pubDate>Thu, 09 Oct 2014 01:10:15 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</guid>
+      <description>&#34;In Allende’s Chile, a futuristic op room was to bring socialism into the computer age.&#34;
+Link: From the New Yorker - `The Planning Machine&#39; By Evgeny Morozov ``The consultant, Stafford Beer, had been brought in by Chile’s top planners to help guide the country down what Salvador Allende, its democratically elected Marxist leader, was calling `the Chilean road to socialism.&#39; Beer was a leading theorist of cybernetics—a discipline born of midcentury efforts to understand the role of communication in controlling social, biological, and technical systems.</description>
+    </item>
+    
+    <item>
+      <title>B-29 Attacks in WWII Japan</title>
+      <link>http://nathanlane.github.io/posts/2014-10-07-b-29-attacks-in-wwii-japan/</link>
+      <pubDate>Tue, 07 Oct 2014 09:19:02 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-07-b-29-attacks-in-wwii-japan/</guid>
+      <description>(From the Maps on the Web blog.)</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: A Beginner&#39;s Guide to Scraping Historic Table Data</title>
+      <link>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</link>
+      <pubDate>Sun, 05 Oct 2014 02:05:28 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-05-a-basic-tutorial-for-digitizing-historic-tabular-data/</guid>
+      <description>This is a simple introduction to scraping tables from historic (scanned) documents. It is by no means definitive. Instead, this is a broad overview aimed at researchers with minimal programming experience tackling smaller digitization projects--say, nothing more than 200 pages. I focus on OCRing material with ABBYY FineReader, a popular commercial program for OCRing. ABBYY has a relatively gentle learning curve and, importantly, straightforward table functionality. &amp;nbsp;  For those more comfortable with the command line and programming, or for open source advocates, I suggest free programmatic alternatives for each tutorial step.</description>
+    </item>
+    
+    <item>
+      <title>Text Analysis, (Non-) Experts, and Turning &#34;Stuff&#34; into Social Science Data</title>
+      <link>http://nathanlane.github.io/posts/2014-09-30-text-analysis-experts-and-turning-stuff-into-data-for-social-sciences/</link>
+      <pubDate>Tue, 30 Sep 2014 03:29:47 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-30-text-analysis-experts-and-turning-stuff-into-data-for-social-sciences/</guid>
+      <description>Social scientists often use experts to &#34;code&#34; datasets; experts read some stuff and code that stuff using a coding rule (a right-left political spectrum, etc.). But this a slow, painful process for constructing a dataset
+Below is an awesome, succinct Kickstarter seminar on how to categorize (political) text using crowd-sourcing from quant-y political scientist, Drew Conway (http://drewconway.com/):
+
+The great lil&#39; seminar is related to his recent working paper, &#34;Methods for Collecting Large-scale Non-expert Text Coding&#34;</description>
+    </item>
+    
+    <item>
+      <title>A Deep Learning Bibliography</title>
+      <link>http://nathanlane.github.io/posts/2014-09-22-a-deep-learning-bibliography/</link>
+      <pubDate>Mon, 22 Sep 2014 21:19:08 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-22-a-deep-learning-bibliography/</guid>
+      <description>A fantastic and extensive bibliography plus github cataloging deep learning resources/code/libraries, etc. from http://deeplearning.university. An amazing time vortex.
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Political Economy and Rock n&#39; Roll in Pre-Pol Pot Cambodia</title>
+      <link>http://nathanlane.github.io/posts/2014-09-20-recovering-subcultures-past-political-economy-youth-culture-and-records/</link>
+      <pubDate>Sat, 20 Sep 2014 17:18:16 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-20-recovering-subcultures-past-political-economy-youth-culture-and-records/</guid>
+      <description>(A respite from data- - ) In the 1960s and 70s Cambodia was home an emergent rock scene, inspired by Western rock that was rolling its way into the region. The rise of the Khmer Rouge put a swift end to a subversive subculture. As in the clips below, youth culture isn&#39;t quite compatible with authoritarianism...much less a utopian regime attempting a hard reboot of society to &#34;year zero.&#34;</description>
+    </item>
+    
+    <item>
+      <title>A great primer on cleaning OCRd data with Python &amp; Regular Expressions.</title>
+      <link>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</link>
+      <pubDate>Wed, 03 Sep 2014 06:04:44 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</guid>
+      <description>Link: Cleaning OCR’d text with Regular Expressions Often the pain of optical character recognition isn&#39;t the OCRing procedure itself, it is cleaning the tiny, little inconsistencies that plague OCRd content. This is especially true when we OCR historical material: even high quality scans can have a speckle or two that get recognized as gibberish.
+Adept use of Regular Expressions (regex) coupled with simple Python (or Ruby scripts--or heck, even Notepad++) can be a powerful means of removing nasty errors from OCRd text/CSV files.</description>
+    </item>
+    
+    <item>
+      <title>An Investigative Journalist&#39;s Guide to Geolocating Media</title>
+      <link>http://nathanlane.github.io/posts/2014-08-23-an-investigative-journalists-guide-to-geolocating/</link>
+      <pubDate>Sat, 23 Aug 2014 18:00:46 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-23-an-investigative-journalists-guide-to-geolocating/</guid>
+      <description>Link: An Investigative Journalist&#39;s Guide to Geolocating Media 
+bell?ngcat, a crowd-funded start-up of Middle East wonks, investigative journalists, and researchers, has made some waves for demonstrating how to geo-locate an Iraqi ISIS training camp.
+Here are a couple of fantastic guides to some of the techniques they use to geolocate media, combining picture/video data alongside common geographic tools. One of the interesting techniques used lately consists of extracting and mapping metadata from photographs using tools like Panoramio.</description>
+    </item>
+    
+    <item>
+      <title>From the Historical Times</title>
+      <link>http://nathanlane.github.io/posts/2014-08-23-historicaltimes-19-inch-color-tv-draws-a-crowd-in/</link>
+      <pubDate>Sat, 23 Aug 2014 17:40:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-23-historicaltimes-19-inch-color-tv-draws-a-crowd-in/</guid>
+      <description>historicaltimes:19 inch color TV draws a crowd in Shantou, China. 1983</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://nathanlane.github.io/posts/2014-08-19-usnatarchivesexhibits-letter-from-senor-don/</link>
+      <pubDate>Tue, 19 Aug 2014 14:01:24 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-19-usnatarchivesexhibits-letter-from-senor-don/</guid>
+      <description>usnatarchivesexhibits:
+Letter from Senor Don Enrique Dupuy de Lôme to Senor Don Jose Canelejas, 1898.
+Item From: General Records of the Department of State. (09/1789-)
+
+This letter, written by the Spanish Ambassador to the United States, criticized President McKinley by calling him weak. The publication of the letter caused the public to support a war with Spain over the independence of the colony of Cuba.
+Source: http://go.usa.gov/DEA9</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://nathanlane.github.io/posts/2014-08-17-natgeofound-two-men-struggle-to-free-their/</link>
+      <pubDate>Sun, 17 Aug 2014 20:02:45 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-17-natgeofound-two-men-struggle-to-free-their/</guid>
+      <description>
+natgeofound:
+Two men struggle to free their scooter from a barbed-wire barricade in Saigon, South Vietnam, 1965.Photograph by W. E. Garrett, National Geographic Creative
+ </description>
+    </item>
+    
+    <item>
+      <title>Guides: DissertationReviews.org&#39;s Archives Reviews</title>
+      <link>http://nathanlane.github.io/posts/2014-08-17-fresh-from-the-archives-from-dissertationreviews-org/</link>
+      <pubDate>Sun, 17 Aug 2014 01:45:29 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-17-fresh-from-the-archives-from-dissertationreviews-org/</guid>
+      <description>The Fresh from the Archives Guide - from Dissertationreviews.org 
+
+Archives are weird places. They often have abstruse rules and I often have no idea what to expect&amp;#8212;especially when going to foreign archives and collections. The obscurity of the whole archival research process can seem really daunting. Especially for economists. I remember a friend of mine asking me after an economic history PhD class, &amp;#8220;so how exactly do we use an archive?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://nathanlane.github.io/posts/2014-08-15-usnatarchivesexhibits-berlin-wall-reinforced/</link>
+      <pubDate>Fri, 15 Aug 2014 20:02:25 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-15-usnatarchivesexhibits-berlin-wall-reinforced/</guid>
+      <description>usnatarchivesexhibits:
+Berlin Wall Reinforced. Under The Watchful Eye of Communist Police, East German Workers Near The Brandenburg Gate Reinforce The Wall Dividing The City, 10/1961.
+Item From: Records of the U.S. Information Agency. (1982-1994).
+
+A signature of an era, the Berlin Wall symbolized the descending of the Iron Curtain. Construction on the Wall started on this date in 1961.
+Source:http://go.usa.gov/D5n5</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://nathanlane.github.io/posts/2014-08-15-theabsolutemag-bikini-kills-kathleen-hanna/</link>
+      <pubDate>Fri, 15 Aug 2014 12:02:01 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-15-theabsolutemag-bikini-kills-kathleen-hanna/</guid>
+      <description>theabsolutemag:
+Bikini Kill’s Kathleen Hanna reads the The Riot Grrrl Manifesto.
+(Source: http://theabsolutemag.tumblr.com/) </description>
+    </item>
+    
+    <item>
+      <title>The data on white anxiety over Hispanic immigration</title>
+      <link>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</link>
+      <pubDate>Fri, 15 Aug 2014 03:30:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</guid>
+      <description>The data on white anxiety over Hispanic immigration (Via my pal, UMass Prof. Arin Dube)
+A fantastic piece on racial anxiety and views on race. A nice little combination of academic research and polling insights. 
+ </description>
+    </item>
+    
+    <item>
+      <title>Historic Aggregate Data for Korea, 1910-1945 -- and beyond.</title>
+      <link>http://nathanlane.github.io/posts/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</link>
+      <pubDate>Fri, 15 Aug 2014 02:56:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</guid>
+      <description>Historic Aggregate Data for Korea, 1910-1945 -- and beyond. Here is a cool batch of datasets (mainly aggregates!) from Korea&amp;#8217;s Nakseongdae Institute of Economic Research, one of which is a nice collection of material covering the colonial Japanese period of Korea (1910-1945). [Just run that sucker through Google translate.]
+If you&amp;#8217;re doing data work in economic history, your life is messy. Even more, if you&amp;#8217;re doing historical work for a developing country, finding the data is often a massive part of the job.</description>
+    </item>
+    
+    <item>
+      <title>A bibliography on land, peasants, and politics for Malaysia, Indonesia and the Philip­pines</title>
+      <link>http://nathanlane.github.io/posts/2014-08-12-a-bibliography-on-land-peasants-and-politics-for/</link>
+      <pubDate>Tue, 12 Aug 2014 20:46:57 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-08-12-a-bibliography-on-land-peasants-and-politics-for/</guid>
+      <description>A bibliography on land, peasants, and politics for Malaysia, Indonesia and the Philip­pines I have been doing a ton of archival work the past three weeks in DC at the National Archives II so I haven&amp;#8217;t had too many updates!
+In line with this hunt&amp;#8217;s theme is this fantastic old Southeast Asian agrarian political economy bibliography. Written by James C Scott and Howard Leichter in 1972 for the Land Tenure Center at UWisconsin&amp;#8212;Madison, it comes straight from the USAID archive,</description>
+    </item>
+    
+    <item>
+      <title>Dataset: Philippine Municipalities Created by Executive Order</title>
+      <link>http://nathanlane.github.io/posts/2014-07-25-dataset-philippine-municipalities-created-by-executive/</link>
+      <pubDate>Fri, 25 Jul 2014 17:32:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-07-25-dataset-philippine-municipalities-created-by-executive/</guid>
+      <description>Oh boy. Doing panel econometrics and economic history in developing countries is awful. One problem, ALWAYS, is when we want to match historical data to contemporary data. Doing so entails historic shapefiles or datasets that allow us to track administrative boundary changes; these things are seldom available for places like the Philippines. So here is a little dataset that lists new municipalities created by executive order (only) from 1936-1965
+Philippine Executive Order Municipalities, 1936-1965 - Table on Mode.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://nathanlane.github.io/posts/2014-07-22-a-great-little-bit-on-the-practice-work-style-of/</link>
+      <pubDate>Tue, 22 Jul 2014 01:38:59 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-07-22-a-great-little-bit-on-the-practice-work-style-of/</guid>
+      <description>A great little bit on the practice/work style of my friend, Erin Riley, a textile artist. (http://www.emptykingdom.com/featured/one-piece-of-art-erin-riley/)
+ How do you start your day? Is there something you do every morning?
+I usually just make sure I have a decent amount of coffee and water within reach and make sure I have all the colors I need to work for a while. I turn on all the lights, fans, take my vitamins, check my email and then get to weaving.</description>
+    </item>
+    
+    <item>
+      <title>Non-parametric Econometrics and Quantile Regressions Online.</title>
+      <link>http://nathanlane.github.io/posts/2014-07-19-non-parametric-econometrics-and-quantile-regressions/</link>
+      <pubDate>Sat, 19 Jul 2014 14:01:37 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-07-19-non-parametric-econometrics-and-quantile-regressions/</guid>
+      <description>On the tail of some cool new econometric papers are a couple of cool new Stata programs. http://froelich.vwl.uni-mannheim.de/1357.0.html</description>
+    </item>
+    
+    <item>
+      <title>The Bastards Book of Regular Expressions by Dan Nguyen</title>
+      <link>http://nathanlane.github.io/posts/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</link>
+      <pubDate>Wed, 16 Jul 2014 07:24:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</guid>
+      <description>The Bastards Book of Regular Expressions by Dan Nguyen  I love regexes even more because they make it possible – if not trivial – to do research and analysis that is otherwise impossible, because believe it or not, most research and analysis start out with just giant blobs of text   The Bastard&amp;#8217;s Book of Regex is a great (free!) text on cleaning up crappy data with regular expressions.</description>
+    </item>
+    
+  </channel>
+</rss>

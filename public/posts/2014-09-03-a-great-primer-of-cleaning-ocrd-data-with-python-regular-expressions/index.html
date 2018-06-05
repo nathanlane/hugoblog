@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.41" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>A great primer on cleaning OCRd data with Python &amp; Regular Expressions. &middot; Nathan Lane</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Open+Sans:400,600,800">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Nathan Lane" />
+
+  
+</head>
+
+  <body class=" layout-reverse">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://nathanlane.github.io/"><h1>Nathan Lane</h1></a>
+      <p class="lead">
+       Economist, Ph.D. Postdoctoral Researcher at MIT, Lecturer at Monash University.
+      </p>
+
+      <p>Find me on <a href="http://twitter.com/straightedge">@straightedge</a>. Or email me at <a href="mailto:nlane@mit.edu">nlane@mit.edu</a>. Edited from Hyde, hosted on GitHub</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="http://nathanlane.github.io/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>A great primer on cleaning OCRd data with Python &amp; Regular Expressions.</h1>
+  <span class="post-date">Wed, Sep 3, 2014</span>
+  <p><a href="http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions" title="Cleaning OCR’d text with Regular Expressions" target="_blank"><br />
+<h4>Link: Cleaning OCR’d text with Regular Expressions</h4>
+<p></a></ br></p>
+<p>Often the pain of <a href="http://en.wikipedia.org/wiki/Optical_character_recognition" target="_blank">optical character recognition</a> isn't the OCRing procedure itself, it is cleaning the tiny, little inconsistencies that plague OCRd content. This is especially true when we OCR historical material: even high quality scans can have a speckle or two that get recognized as gibberish.</p>
+<p></ br></p>
+<p>Adept use of <a href="http://nikic.github.io/2012/06/15/The-true-power-of-regular-expressions.html" target="_blank">Regular Expressions</a> (regex) coupled with simple Python (or Ruby scripts--or heck, even Notepad++) can be a powerful means of removing nasty errors from OCRd text/CSV files.</p>
+<p></ br></p>
+<p><a href="http://programminghistorian.org/lessons/cleaning-ocrd-text-with-regular-expressions" target="_blank">Here's an awesome little primer</a> from Laura O'hare at <a href="http://programminghistorian.org/" title="The Programming Historian blog" target="_blank">The Programming Historian</a> on using Python to clean nasty OCRd content using regexs. Great sample (verbose) code for helping turning mush into data. Importantly, they break down a lot of the regex components, which is helpful for those getting started with this brand of data cleaning.</p>
+<p></ br></p>
+<p>Of course, regex+Python won't be perfect. While there are <a href="http://en.wikipedia.org/wiki/Grep" target="_blank">preferred ways</a> of using regex to wrangle text, Python gives most of us quick, programmatic means of cleaning nasty OCRd spreadsheets and the like. Most importantly, however, errors in our OCRd content are seldom systematic, which makes completely automating OCRd data cleaning tricky. There will be hand polishing involved. But as the primer notes, the point is isn't perfection; it's to let regex+Python "<strong>do the heavy lifting</strong>."</p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>

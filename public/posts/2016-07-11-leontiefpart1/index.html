@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.41" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Input-Output Tables &amp; the Leontief Inverse in R - Part I. &middot; Nathan Lane</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://nathanlane.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Open+Sans:400,600,800">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Nathan Lane" />
+
+  
+</head>
+
+  <body class=" layout-reverse">
+  <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://nathanlane.github.io/"><h1>Nathan Lane</h1></a>
+      <p class="lead">
+       Economist, Ph.D. Postdoctoral Researcher at MIT, Lecturer at Monash University.
+      </p>
+
+      <p>Find me on <a href="http://twitter.com/straightedge">@straightedge</a>. Or email me at <a href="mailto:nlane@mit.edu">nlane@mit.edu</a>. Edited from Hyde, hosted on GitHub</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="http://nathanlane.github.io/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</div>
+
+    <div class="content container">
+    <div class="post">
+  <h1>Input-Output Tables &amp; the Leontief Inverse in R - Part I.</h1>
+  <span class="post-date">Mon, Jul 11, 2016</span>
+  <p><img src="/assets/surahammarssweden.jpg" width="700px"/>
+<small>Surahammars Ironworks/Surahammars Järnbruk, Sweden, 1919.<br />
+<a href="www.tekniskamuseet.se/1/706.html">From Sweden&rsquo;s Tekniska Museet photo collection</a>.</small></p>
+
+<p>In input-output economics, the <strong>Leontief inverse</strong> (i.e. [I-A]^-1) is ubiquitous. Named after the father of input-output economics, <a href="http://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/1973/leontief-bio.html">Wassily Leontief</a>, the matrix is a compact representation of the ripple effects in an economy where industries are interconnected. A lone matrix coefficient conveys all direct and indirect effects on output in one sector required by a unit of output from another sector.</p>
+
+<p>Below is Part 1 of a two part tutorial on deriving the Leontief inverse using R. This first part is a &ldquo;toy&rdquo; example to motivated the pieces of the input-output analysis and the workflow in R. Part 2 describes how to calculate the Leontief inverse from a full scale input-output table.</p>
+
+<h4>A Toy Input-Output Model.</h4>
+
+<p>Consider a baby example. I&rsquo;ll use <strong>Table 1</strong> as a guide to calculating a simple Leontief inverse using R. The table represents the essential ingredients of common input-output tables using only two sectors.</p>
+
+<p><strong>Table 1. A Small Input-Output Table</strong></p>
+
+<p><table>
+<tbody>
+<tr>
+<td> </td>
+<td colspan="2"><center>Intermediates</center></td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td>From / To</td>
+<td>Good 1</td>
+<td>Good 2</td>
+<td>Final Goods</td>
+<td>Total Output</td>
+</tr>
+<tr style="border-top:1px solid darkgray;">
+<td>Good 1</td>
+<td>150</td>
+<td>500</td>
+<td>350</td>
+<td>1000</td>
+</tr>
+<tr style="border-top:1px solid darkgray;">
+<td>Good 2</td>
+<td>200</td>
+<td>100</td>
+<td>1700</td>
+<td>2000</td>
+</tr>
+</tbody>
+</table>
+<small>The above example borrows from the canonical examples in chapter 2 of Miller and Blair&rsquo;s <u>Input-Output Analysis</u> (1985) as well as chapter 2 of Leontief&rsquo;s <u>Input-Output Economics</u> (1986).
+</small></p>
+
+<p>The heart of the table is a two-by-two matrix representing the intermediate good flows between the two sectors: sector 1 and sector 2. A row represents the value of output sent from a goods sector for productive use in a column sector. Above, a row sector sends goods to itself and sector 2.</p>
+
+<p>After the two columns of intermediate good sales, the &ldquo;Final Goods&rdquo; column shows the value of a row&rsquo;s output used as final products&ndash;output not used in production. If we add up a row&rsquo;s output used as intermediate goods and as final products, we get the last column: total output.</p>
+
+<h4>Calculating the Matrix</h4>
+
+<p>The Leontief inverse is calculated in the following way. We start with an IO table like the one above. Using this basic IO table, we generate a &ldquo;technical coefficient matrix,&rdquo; which we then use to solve for the Leontient inverse matrix, L.</p>
+
+<p>$$
+\textrm{Basic IO Table: }~ X \Rightarrow \textrm{Technical Matrix: }~ A \Rightarrow \textrm{Leontief Matrix: }~ L
+$$</p>
+
+<p>First we&rsquo;ll build the input-output table in Table 1 using R. We generate the two-by-two flow of interindustry sales (<code>flowtable</code>). Then I create the vector of <code>finaldemand</code>.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># Intermediate flow matrix.</span>
+flowtable <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">rbind</span>( <span style="color:#66d9ef">c</span>( <span style="color:#ae81ff">150</span> , <span style="color:#ae81ff">500</span> ), <span style="color:#66d9ef">c</span>( <span style="color:#ae81ff">200</span> , <span style="color:#ae81ff">100</span> ) )
+<span style="color:#75715e"># Final demand.</span>
+finaldemand <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">rbind</span>( <span style="color:#66d9ef">c</span>( <span style="color:#ae81ff">350</span> ), <span style="color:#66d9ef">c</span>( <span style="color:#ae81ff">1700</span> ) )</code></pre></div>
+
+<p>We combined these pieces into a <code>data.frame</code> object. Once combined, we sum across the intermediate input columns and final demand column to produce a new variable: total demand. The result is a <code>data.frame</code> version of Table 1.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># Bind into input-output table.</span>
+inputoutputtable <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">cbind</span>( flowtable , finaldemand )
+
+<span style="color:#75715e"># Convert object to data.frame.</span>
+inputoutputtable <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">as.data.frame</span>( inputoutputtable )
+
+<span style="color:#75715e"># Name columns of table (dataframe)</span>
+<span style="color:#66d9ef">names</span>( inputoutputtable ) <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">c</span>(<span style="color:#e6db74">&#34;x1&#34;</span> , <span style="color:#e6db74">&#34;x2&#34;</span> , <span style="color:#e6db74">&#34;finaldemand&#34;</span>)
+
+<span style="color:#75715e"># Calculate total output, add final demand and intermediate columns:</span>
+inputoutputtable<span style="color:#f92672">$</span>totaloutput <span style="color:#f92672">&lt;-</span> inputoutputtable<span style="color:#f92672">$</span>x1 <span style="color:#f92672">+</span>
+                                inputoutputtable<span style="color:#f92672">$</span>x2 <span style="color:#f92672">+</span>
+                                inputoutputtable<span style="color:#f92672">$</span>finaldemand
+
+<span style="color:#75715e"># Show the small IO table.</span>
+inputoutputtable
+<span style="color:#f92672">&gt;</span>   x1  x2 finaldemand totaloutput
+<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">1</span> <span style="color:#ae81ff">150</span> <span style="color:#ae81ff">500</span>         <span style="color:#ae81ff">350</span>        <span style="color:#ae81ff">1000</span>
+<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">2</span> <span style="color:#ae81ff">200</span> <span style="color:#ae81ff">100</span>         <span style="color:#ae81ff">1700</span>       <span style="color:#ae81ff">2000</span>
+
+<span style="color:#75715e"># Save total output vector as a separate object. Use later.</span>
+totaloutput <span style="color:#f92672">&lt;-</span> inputoutputtable<span style="color:#f92672">$</span>totaloutput</code></pre></div>
+
+<p>Now we can derive a <strong>technical coefficient matrix</strong>, also called <strong>matrix A</strong>. A column of this matrix represents an industrial recipe used to produce a single industry good.</p>
+
+<p>Matrix A is calculated by dividing intersectoral flows by the total output of each column&rsquo;s sector. Specifically, sector 1 ships 500 dollars of good 1 to sector 2, which produces 1000 dollars of total output. Thus, one dollar of good 1 is absorbed to produce 25 cents of sector 2&rsquo;s output.</p>
+
+<p>$$
+\textrm{Input Flow Matrix: }~X  = \left[ \begin{matrix} 150 &amp; 500 \\ 200 &amp; 100 \end{matrix} \right]~
+\<br />
+z = \textrm{I}_2 \textrm{Total Output}^{-1} =\left[ \begin{matrix} 1 &amp; 0 \\ 0 &amp; 1 \end{matrix} \right] \left[ \begin{matrix} 1000 \\ 2000 \end{matrix}   \right]^{-1}~
+$$</p>
+
+<p>$$
+\textrm{Technical Coefficient Matrix: }~A = Xz \Rightarrow A = \left[ \begin{matrix} .15 &amp; .25 \\ .2 &amp; .05 \end{matrix} \right]
+$$</p>
+
+<p>To calculate matrix A in R: first take the inverse of the total output vector and multiply it with an identity matrix. The resulting object, <code>z</code>, is multiplied again with the <code>flowtable</code> matrix.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e">## Calcate coefficient matrix:</span>
+z <span style="color:#f92672">&lt;-</span> ( totaloutput )<span style="color:#f92672">^</span><span style="color:#ae81ff">-1</span> <span style="color:#f92672">*</span> <span style="color:#66d9ef">diag</span>( <span style="color:#ae81ff">2</span> )
+A <span style="color:#f92672">&lt;-</span> flowtable <span style="color:#f92672">%*%</span> z
+
+<span style="color:#75715e"># Show A</span>
+A
+     [,<span style="color:#ae81ff">1</span>] [,<span style="color:#ae81ff">2</span>]
+[<span style="color:#ae81ff">1</span>,] <span style="color:#ae81ff">0.15</span> <span style="color:#ae81ff">0.25</span>
+[<span style="color:#ae81ff">2</span>,] <span style="color:#ae81ff">0.20</span> <span style="color:#ae81ff">0.05</span></code></pre></div>
+
+<p>Alternatively, we can use R&rsquo;s <code>sweep()</code> function to calculate A directly from the <code>flowmatrix</code> and the <code>totaloutput</code> vector. <code>sweep()</code> takes the input matrix and divides each column by the corresponding entry of the vector. The argument <code>margin = 2</code> tells us we&rsquo;re &ldquo;sweeping&rdquo; over the columns of the input matrix, as opposed to rows (for row-wise calculations, <code>margin = 1</code>).</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># Using &#34;Sweep&#34;</span>
+A.alternative <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">sweep</span>( flowtable , 
+						margin <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span> , 
+						totaloutput , 
+						<span style="color:#e6db74">&#39;/&#39;</span> )
+A.alternative
+     [,<span style="color:#ae81ff">1</span>] [,<span style="color:#ae81ff">2</span>]
+[<span style="color:#ae81ff">1</span>,] <span style="color:#ae81ff">0.15</span> <span style="color:#ae81ff">0.25</span>
+[<span style="color:#ae81ff">2</span>,] <span style="color:#ae81ff">0.20</span> <span style="color:#ae81ff">0.05</span></code></pre></div>
+
+<p>Finally, the Leontief matrix is calculated in the following way.</p>
+
+<p>$$
+\textrm{Leontief Matrix: }~ L = (\textrm{I}_2 - A)^{-1} \Rightarrow L = \left[ \begin{matrix} 1.2541 &amp; .33 \\ .264 &amp; 1.1221 \end{matrix}  \right]
+$$</p>
+
+<p>Using R, we first calculate <code>I-A</code>, substracting the technical coefficient matrix from the identity matrix. We then invert the I-A matrix by using the<code>solve()</code> function. The result, <code>L</code>, is the Leontief coefficient matrix.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#75715e"># Identity matrix minus technical coefficient matrix.</span>
+IminusA <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">diag</span>( <span style="color:#ae81ff">2</span> ) <span style="color:#f92672">-</span> A
+
+<span style="color:#75715e">## Calculate inverse.</span>
+L <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">solve</span>( IminusA ) 
+
+<span style="color:#75715e"># Show Leontief matrix.</span>
+L
+          [,<span style="color:#ae81ff">1</span>]     [,<span style="color:#ae81ff">2</span>]
+[<span style="color:#ae81ff">1</span>,] <span style="color:#ae81ff">1.2541254</span> <span style="color:#ae81ff">0.330033</span>
+[<span style="color:#ae81ff">2</span>,] <span style="color:#ae81ff">0.2640264</span> <span style="color:#ae81ff">1.122112</span></code></pre></div>
+
+<p>Substantively, the matrix L summarizes the network effects generated when final output changes. A single coefficient of matrix L, surprisingly, summarizes <strong>all</strong> direct and indirect effects created in sector <strong>i</strong> to supply a single unit of final demand for sector <strong>j</strong>.</p>
+
+</div>
+
+
+    </div>
+
+    
+  </body>
+</html>

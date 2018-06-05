@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital History on Nathan Lane</title>
+    <link>http://nathanlane.github.io/tags/digital-history/</link>
+    <description>Recent content in Digital History on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Nov 2015 01:51:41 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/tags/digital-history/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wozniakian Destruction</title>
+      <link>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</link>
+      <pubDate>Sat, 28 Nov 2015 01:51:41 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</guid>
+      <description>&#34;Wozniakian Destruction&#34; - The History of Phone Hacking &amp; its Influence on 1970s Silicon Valley     A bundle of blue boxes from phreaking.wikia.com  &amp;nbsp;
+FiveThiryEight Signal&#39;s Series had a great small documentary piece on the history of phone hacking in 1960s-1980s, through the lens of Steve Wozniak and Steve Job&#39;s pre-Apple bedroom-based manufacturing of &#34;blue bloxes,&#34; devices used for manipulating the nation&#39;s telecommunication infrastructure. The tidy punchline: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Data Janitors &amp; Data Carpentry.</title>
+      <link>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</link>
+      <pubDate>Sat, 14 Nov 2015 02:16:17 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</guid>
+      <description>Data Janitors and Data Carpentry: value in the nitty gritty?  &#34;Report on the investigation of engineer and janitor service, Board of education, city of Chicago&#34; (1913)  The fantastic machine learning-oriented podcast, Talking Machines, had an interview with computer scientist, David Mimno (also: his course syllabus on text mining for historians is awesome.). They spent some time discussing a recent essay by Mimno, that riffed off the New York Times &#34;</description>
+    </item>
+    
+    <item>
+      <title>Found Photos from Vietnam - a Digitization Project</title>
+      <link>http://nathanlane.github.io/posts/2015-11-08-found-photos-from-vietnam-a-digitization-project/</link>
+      <pubDate>Sun, 08 Nov 2015 18:28:05 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-11-08-found-photos-from-vietnam-a-digitization-project/</guid>
+      <description>More at chieu-hoi.com.  &amp;nbsp;
+Newly digitized photos from Vietnam war photographer, Charlie Haughey, appearing in his fantastic new book, A Weather Walked In. See also recent coverage in the Atlantic.
+
+&amp;nbsp;
+
+Video and story from A Weather Walked In&#39;s crowd-source project page.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Manipulating PDFs in Python (to Scrape Them).</title>
+      <link>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</link>
+      <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</guid>
+      <description>When digitizing old data, we often start with a pile of scanned documents we must reorganize. Much time is spent manually trudging through scans, deducing what variables exist, and selecting the tables we eventually wish to turn into machine-readable data. When you have hundreds of multi-page PDFS, this can be a painful experience. However, automating PDF manipulation with Python can save major time.
+The Problem We start with scans of old, provincial statistical yearbooks for a Southeast Asian country.</description>
+    </item>
+    
+  </channel>
+</rss>

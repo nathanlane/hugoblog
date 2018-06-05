@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Nathan Lane</title>
+    <link>http://nathanlane.github.io/tags/r/</link>
+    <description>Recent content in R on Nathan Lane</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://nathanlane.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tutorial: R Code Style for Empirical Economists</title>
+      <link>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</link>
+      <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</guid>
+      <description>Make your code understandable. IBM&#39;s data center in the 1960s, Toronto. Source:ibm-1401.info/ Heuristics, Hunches, &amp;amp; Why the Heck We Care. We hear many horror stories about big names having their results over turned over because of problems in our code. The struggle is real.
+With this in mind, even simple rules of thumb used in programming can have large payoffs for social scientists. Especially since best practices are never discussed in graduate coursework.</description>
+    </item>
+    
+    <item>
+      <title>Geospatial Data in R</title>
+      <link>http://nathanlane.github.io/posts/2015-10-18-taking-geospatial-data-to-r-how-to-ditch-arcgis/</link>
+      <pubDate>Sun, 18 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-10-18-taking-geospatial-data-to-r-how-to-ditch-arcgis/</guid>
+      <description>Taking Geospatial Data to R (&amp; how to ditch ArcGIS) For R users it&#39;s very straightforward to ditch ArcGIS (for most tasks) in favor of doing everything through an R script. There are many reasons to do this:
+ First, if you can do GIS work on your Linux system or Mac without having to run things through a lame emulator. Second, you can cut yourself loose from dealing with the clunky ArcGIS licensing system.</description>
+    </item>
+    
+    <item>
+      <title>Tutorial: Growing Datasets in R</title>
+      <link>http://nathanlane.github.io/posts/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</link>
+      <pubDate>Fri, 26 Jun 2015 11:57:06 +0000</pubDate>
+      
+      <guid>http://nathanlane.github.io/posts/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</guid>
+      <description>Figure: From the Field Museum archives, 1920, Photographer Herbert P. Burtch, Oriental Institute. &#34;Men moving Totem Pole outside Field Museum by train.&#34;
+Note: This was originally some notes to RAs but I figured it may be useful for other people out there.
+I&#39;ve had some discussion with econ folks and RAs who are working with giant datasets in R for the first time. In particular, those having to &#34;harvest&#34; or &#34;</description>
+    </item>
+    
+  </channel>
+</rss>
