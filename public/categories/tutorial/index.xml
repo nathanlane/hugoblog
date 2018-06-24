@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tutorial on Nathan Lane</title>
-    <link>http://nathanlane.github.io/categories/tutorial/</link>
-    <description>Recent content in Tutorial on Nathan Lane</description>
+    <title>Tutorial on Nathan Lane, PhD</title>
+    <link>http://example.com/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Fri, 31 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quick Note: Writing large .csv files in R with fwrite()! and beyond</title>
-      <link>http://nathanlane.github.io/posts/2017-03-31-writingwithfwrite/</link>
+      <link>http://example.com/post/2017-03-31-writingwithfwrite/</link>
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2017-03-31-writingwithfwrite/</guid>
+      <guid>http://example.com/post/2017-03-31-writingwithfwrite/</guid>
       <description>The problem. R can be nasty when it comes to reading and writing &amp;ldquo;large&amp;rdquo; datasets. As practitioners, we often appeal to hacky practices, emergent libraries, alternatives methods to avoid crashing our systems during heavy jobs.
 One alternative I had the appealed to was the ff library , a great library for processing large data. Importantly, ff had an awesome function for quickly saving multi-gig .csv files (write.table.ffdf).
 Recently, however, write.</description>
@@ -24,10 +25,10 @@ Recently, however, write.</description>
     
     <item>
       <title>Input-Output Tables &amp; the Leontief Inverse in R - Part I.</title>
-      <link>http://nathanlane.github.io/posts/2016-07-11-leontiefpart1/</link>
+      <link>http://example.com/post/2016-07-11-leontiefpart1/</link>
       <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2016-07-11-leontiefpart1/</guid>
+      <guid>http://example.com/post/2016-07-11-leontiefpart1/</guid>
       <description>Surahammars Ironworks/Surahammars Järnbruk, Sweden, 1919.
 From Sweden&amp;rsquo;s Tekniska Museet photo collection.
 In input-output economics, the Leontief inverse (i.e. [I-A]^-1) is ubiquitous. Named after the father of input-output economics, Wassily Leontief, the matrix is a compact representation of the ripple effects in an economy where industries are interconnected. A lone matrix coefficient conveys all direct and indirect effects on output in one sector required by a unit of output from another sector.</description>
@@ -35,30 +36,30 @@ In input-output economics, the Leontief inverse (i.e. [I-A]^-1) is ubiquitous. N
     
     <item>
       <title>Quick Note: Using &#39;ff&#39; to quickly save giant data sets in R</title>
-      <link>http://nathanlane.github.io/posts/2016-01-27-ffasthackforbigdata/</link>
+      <link>http://example.com/post/2016-01-27-ffasthackforbigdata/</link>
       <pubDate>Wed, 27 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2016-01-27-ffasthackforbigdata/</guid>
+      <guid>http://example.com/post/2016-01-27-ffasthackforbigdata/</guid>
       <description>Using a really powerful library to do something simple.  For a current project, I am having to repeatedly manipulate and save a hundred datasets, each with about 4 million observations. While R tools like fread(), part of the data.table library, make it trivial to load massive data sets into memory, writing these data sets&amp;ndash;and doing so repeatedly&amp;ndash;is another story..
 When trying to save big data sets, many of folks first recommend the write.</description>
     </item>
     
     <item>
       <title>Tutorial: Big GIS Data in R &amp; Functional Programming</title>
-      <link>http://nathanlane.github.io/posts/2016-01-02-gisfunctional/</link>
+      <link>http://example.com/post/2016-01-02-gisfunctional/</link>
       <pubDate>Sat, 02 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2016-01-02-gisfunctional/</guid>
+      <guid>http://example.com/post/2016-01-02-gisfunctional/</guid>
       <description>Caption: &#34;Thermal Map of North America. Delineating the Isothermal Zodiac, the Isothermal Axis of Identity, and its expansions up and down the &#39;Plateau&#39; &#34; From William Gilpin’s &#34;Mission of the North American People (1873).&#34; Via the &#34;Making Maps: DIY Cartography&#34; blog.  The Question How do I take over 100 NetCDF files, each containing thousands of layers of hourly raster data, and translate into dataset?
 I&#39;ll flesh out the problem more,</description>
     </item>
     
     <item>
       <title>Tutorial: Growing Datasets in R</title>
-      <link>http://nathanlane.github.io/posts/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</link>
+      <link>http://example.com/post/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</link>
       <pubDate>Fri, 26 Jun 2015 11:57:06 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</guid>
+      <guid>http://example.com/post/2015-06-26-quick-note-growing-datasets-more-efficiently-in-r/</guid>
       <description>Figure: From the Field Museum archives, 1920, Photographer Herbert P. Burtch, Oriental Institute. &#34;Men moving Totem Pole outside Field Museum by train.&#34;
 Note: This was originally some notes to RAs but I figured it may be useful for other people out there.
 I&#39;ve had some discussion with econ folks and RAs who are working with giant datasets in R for the first time. In particular, those having to &#34;harvest&#34; or &#34;</description>

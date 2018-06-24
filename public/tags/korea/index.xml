@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Korea on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/korea/</link>
-    <description>Recent content in Korea on Nathan Lane</description>
+    <title>Korea on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/korea/</link>
+    <description>Recent content in Korea on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Fri, 15 Aug 2014 02:56:00 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/korea/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/korea/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Historic Aggregate Data for Korea, 1910-1945 -- and beyond.</title>
-      <link>http://nathanlane.github.io/posts/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</link>
+      <link>http://example.com/post/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</link>
       <pubDate>Fri, 15 Aug 2014 02:56:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</guid>
+      <guid>http://example.com/post/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</guid>
       <description>Historic Aggregate Data for Korea, 1910-1945 -- and beyond. Here is a cool batch of datasets (mainly aggregates!) from Korea&amp;#8217;s Nakseongdae Institute of Economic Research, one of which is a nice collection of material covering the colonial Japanese period of Korea (1910-1945). [Just run that sucker through Google translate.]
 If you&amp;#8217;re doing data work in economic history, your life is messy. Even more, if you&amp;#8217;re doing historical work for a developing country, finding the data is often a massive part of the job.</description>
     </item>

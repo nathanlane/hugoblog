@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Wrangling on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/data-wrangling/</link>
-    <description>Recent content in Data Wrangling on Nathan Lane</description>
+    <title>Data Wrangling on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/data-wrangling/</link>
+    <description>Recent content in Data Wrangling on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Sat, 14 Nov 2015 02:16:17 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/data-wrangling/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/data-wrangling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Data Janitors &amp; Data Carpentry.</title>
-      <link>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</link>
+      <link>http://example.com/post/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</link>
       <pubDate>Sat, 14 Nov 2015 02:16:17 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</guid>
+      <guid>http://example.com/post/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</guid>
       <description>Data Janitors and Data Carpentry: value in the nitty gritty?  &#34;Report on the investigation of engineer and janitor service, Board of education, city of Chicago&#34; (1913)  The fantastic machine learning-oriented podcast, Talking Machines, had an interview with computer scientist, David Mimno (also: his course syllabus on text mining for historians is awesome.). They spent some time discussing a recent essay by Mimno, that riffed off the New York Times &#34;</description>
     </item>
     
     <item>
       <title>The Bastards Book of Regular Expressions by Dan Nguyen</title>
-      <link>http://nathanlane.github.io/posts/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</link>
+      <link>http://example.com/post/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</link>
       <pubDate>Wed, 16 Jul 2014 07:24:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</guid>
+      <guid>http://example.com/post/2014-07-16-the-bastards-book-of-regular-expressions-by-dan-nguyen/</guid>
       <description>The Bastards Book of Regular Expressions by Dan Nguyen  I love regexes even more because they make it possible – if not trivial – to do research and analysis that is otherwise impossible, because believe it or not, most research and analysis start out with just giant blobs of text   The Bastard&amp;#8217;s Book of Regex is a great (free!) text on cleaning up crappy data with regular expressions.</description>
     </item>
     

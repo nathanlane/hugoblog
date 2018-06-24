@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reblog on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/reblog/</link>
-    <description>Recent content in Reblog on Nathan Lane</description>
+    <title>Reblog on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/reblog/</link>
+    <description>Recent content in Reblog on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Tue, 19 Aug 2014 14:01:24 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/reblog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/reblog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://nathanlane.github.io/posts/2014-08-19-usnatarchivesexhibits-letter-from-senor-don/</link>
+      <link>http://example.com/post/2014-08-19-usnatarchivesexhibits-letter-from-senor-don/</link>
       <pubDate>Tue, 19 Aug 2014 14:01:24 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-08-19-usnatarchivesexhibits-letter-from-senor-don/</guid>
+      <guid>http://example.com/post/2014-08-19-usnatarchivesexhibits-letter-from-senor-don/</guid>
       <description>usnatarchivesexhibits:
 Letter from Senor Don Enrique Dupuy de Lôme to Senor Don Jose Canelejas, 1898.
 Item From: General Records of the Department of State. (09/1789-)
@@ -27,10 +28,10 @@ Source: http://go.usa.gov/DEA9</description>
     
     <item>
       <title></title>
-      <link>http://nathanlane.github.io/posts/2014-08-15-usnatarchivesexhibits-berlin-wall-reinforced/</link>
+      <link>http://example.com/post/2014-08-15-usnatarchivesexhibits-berlin-wall-reinforced/</link>
       <pubDate>Fri, 15 Aug 2014 20:02:25 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-08-15-usnatarchivesexhibits-berlin-wall-reinforced/</guid>
+      <guid>http://example.com/post/2014-08-15-usnatarchivesexhibits-berlin-wall-reinforced/</guid>
       <description>usnatarchivesexhibits:
 Berlin Wall Reinforced. Under The Watchful Eye of Communist Police, East German Workers Near The Brandenburg Gate Reinforce The Wall Dividing The City, 10/1961.
 Item From: Records of the U.S. Information Agency. (1982-1994).
@@ -41,10 +42,10 @@ Source:http://go.usa.gov/D5n5</description>
     
     <item>
       <title></title>
-      <link>http://nathanlane.github.io/posts/2014-08-15-theabsolutemag-bikini-kills-kathleen-hanna/</link>
+      <link>http://example.com/post/2014-08-15-theabsolutemag-bikini-kills-kathleen-hanna/</link>
       <pubDate>Fri, 15 Aug 2014 12:02:01 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-08-15-theabsolutemag-bikini-kills-kathleen-hanna/</guid>
+      <guid>http://example.com/post/2014-08-15-theabsolutemag-bikini-kills-kathleen-hanna/</guid>
       <description>theabsolutemag:
 Bikini Kill’s Kathleen Hanna reads the The Riot Grrrl Manifesto.
 (Source: http://theabsolutemag.tumblr.com/) </description>

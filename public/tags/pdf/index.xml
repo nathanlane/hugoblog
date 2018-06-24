@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pdf on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/pdf/</link>
-    <description>Recent content in Pdf on Nathan Lane</description>
+    <title>Pdf on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/pdf/</link>
+    <description>Recent content in Pdf on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Sun, 19 Oct 2014 16:16:08 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutorial: Manipulating PDFs in Python (to Scrape Them).</title>
-      <link>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</link>
+      <link>http://example.com/post/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</link>
       <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</guid>
+      <guid>http://example.com/post/2014-10-19-chopping-and-merging-pdfs-in-python-to-scrape-them/</guid>
       <description>When digitizing old data, we often start with a pile of scanned documents we must reorganize. Much time is spent manually trudging through scans, deducing what variables exist, and selecting the tables we eventually wish to turn into machine-readable data. When you have hundreds of multi-page PDFS, this can be a painful experience. However, automating PDF manipulation with Python can save major time.
 The Problem We start with scans of old, provincial statistical yearbooks for a Southeast Asian country.</description>
     </item>

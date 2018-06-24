@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Not Data on Nathan Lane</title>
-    <link>http://nathanlane.github.io/categories/not-data/</link>
-    <description>Recent content in Not Data on Nathan Lane</description>
+    <title>Not Data on Nathan Lane, PhD</title>
+    <link>http://example.com/categories/not-data/</link>
+    <description>Recent content in Not Data on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Sat, 28 Nov 2015 01:51:41 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/categories/not-data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/categories/not-data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Wozniakian Destruction</title>
-      <link>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</link>
+      <link>http://example.com/post/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</link>
       <pubDate>Sat, 28 Nov 2015 01:51:41 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</guid>
+      <guid>http://example.com/post/2015-11-28-wozniakian-destruction-the-history-of-phone-hacking-and-its-influence-on-1970s-silicon-valley/</guid>
       <description>&#34;Wozniakian Destruction&#34; - The History of Phone Hacking &amp; its Influence on 1970s Silicon Valley     A bundle of blue boxes from phreaking.wikia.com  &amp;nbsp;
 FiveThiryEight Signal&#39;s Series had a great small documentary piece on the history of phone hacking in 1960s-1980s, through the lens of Steve Wozniak and Steve Job&#39;s pre-Apple bedroom-based manufacturing of &#34;blue bloxes,&#34; devices used for manipulating the nation&#39;s telecommunication infrastructure. The tidy punchline: &#34;</description>
     </item>
     
     <item>
       <title>Found Photos from Vietnam - a Digitization Project</title>
-      <link>http://nathanlane.github.io/posts/2015-11-08-found-photos-from-vietnam-a-digitization-project/</link>
+      <link>http://example.com/post/2015-11-08-found-photos-from-vietnam-a-digitization-project/</link>
       <pubDate>Sun, 08 Nov 2015 18:28:05 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-11-08-found-photos-from-vietnam-a-digitization-project/</guid>
+      <guid>http://example.com/post/2015-11-08-found-photos-from-vietnam-a-digitization-project/</guid>
       <description>More at chieu-hoi.com.  &amp;nbsp;
 Newly digitized photos from Vietnam war photographer, Charlie Haughey, appearing in his fantastic new book, A Weather Walked In. See also recent coverage in the Atlantic.
 
@@ -37,28 +38,28 @@ Video and story from A Weather Walked In&#39;s crowd-source project page.</descr
     
     <item>
       <title>Soekarno and Khrushchev, 1960</title>
-      <link>http://nathanlane.github.io/posts/2015-09-02-625/</link>
+      <link>http://example.com/post/2015-09-02-625/</link>
       <pubDate>Wed, 02 Sep 2015 13:37:52 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-09-02-625/</guid>
+      <guid>http://example.com/post/2015-09-02-625/</guid>
       <description>  Indonesian President, Soekarno, and USSR&#39;s Khrushchev, 1960. Life Magazine. </description>
     </item>
     
     <item>
       <title>Suicides &amp; Churches in Early 20th Century Seattle</title>
-      <link>http://nathanlane.github.io/posts/2015-02-05-suicides-churches-in-early-20th-century-seattle/</link>
+      <link>http://example.com/post/2015-02-05-suicides-churches-in-early-20th-century-seattle/</link>
       <pubDate>Thu, 05 Feb 2015 17:22:34 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-02-05-suicides-churches-in-early-20th-century-seattle/</guid>
+      <guid>http://example.com/post/2015-02-05-suicides-churches-in-early-20th-century-seattle/</guid>
       <description>           From the  Making Maps blog. Fantastic plots from old sociology research, originally published in Calvin F. Schmid “Notes on Two Multiple-Variable Spot Maps” Social Forces, Vol. 6, No. 3. (Mar., 1928), pp. 378-382.  </description>
     </item>
     
     <item>
       <title>Review: Ezra Vogel&#39;s The Four Little Dragons - The Spread of Industrialization in East Asia</title>
-      <link>http://nathanlane.github.io/posts/2014-12-19-book-review-revisiting-ezra-vogels-the-four-little-dragons/</link>
+      <link>http://example.com/post/2014-12-19-book-review-revisiting-ezra-vogels-the-four-little-dragons/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-12-19-book-review-revisiting-ezra-vogels-the-four-little-dragons/</guid>
+      <guid>http://example.com/post/2014-12-19-book-review-revisiting-ezra-vogels-the-four-little-dragons/</guid>
       <description>Singapore, 1967. Location: &#34;North Bridge road just after Capitol theatre.&#34; Copyright David Ayer.
 &amp;nbsp;
 Sometimes the jacket covers of books are so dated that the obscure contents that still hold up in 2014. The Four Little Dragons was published in 1991, but the narrative still matters. Ezra Vogel&#39;s The Four Little Dragons is a comparative primer (lecture) that distills key narratives and lessons from four &#34;Asian miracle&#34; economies. Vogel skillfully narrates the rapid growth episodes of Hong Kong, Singapore, South Korea, and Taiwan in a slim volume.</description>
@@ -66,48 +67,48 @@ Sometimes the jacket covers of books are so dated that the obscure contents that
     
     <item>
       <title>The VC &amp; ARVN, re-enacted.</title>
-      <link>http://nathanlane.github.io/posts/2014-11-12-the-vc-arvn-re-enacted/</link>
+      <link>http://example.com/post/2014-11-12-the-vc-arvn-re-enacted/</link>
       <pubDate>Wed, 12 Nov 2014 02:47:50 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-11-12-the-vc-arvn-re-enacted/</guid>
+      <guid>http://example.com/post/2014-11-12-the-vc-arvn-re-enacted/</guid>
       <description>﻿ We&#39;re sifting through historic Vietnamese data and Pablo, my co-author, sent this along the way.</description>
     </item>
     
     <item>
       <title>A new model of the labor market?</title>
-      <link>http://nathanlane.github.io/posts/2014-10-23-a-new-model-of-the-labor-market/</link>
+      <link>http://example.com/post/2014-10-23-a-new-model-of-the-labor-market/</link>
       <pubDate>Thu, 23 Oct 2014 02:17:14 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-10-23-a-new-model-of-the-labor-market/</guid>
+      <guid>http://example.com/post/2014-10-23-a-new-model-of-the-labor-market/</guid>
       <description>Link: Watch a stampede of idiots endlessly run straight into a spinning metal thing. &#34;Artist Dave Fothergill—who’s done visual effects for a bunch of National Geographic documentary films—has created a simple 3D animation of a crowd stampeding straight into a rotating metal thing. Watch as they all get threshed into a chaotic, flailing pile. It’s mesmerizing...&#34;
 From Death and Taxes Mag.</description>
     </item>
     
     <item>
       <title>On developmentalism, planning, &amp; early big data in Allende&#39;s Chile.</title>
-      <link>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</link>
+      <link>http://example.com/post/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</link>
       <pubDate>Thu, 09 Oct 2014 01:10:15 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</guid>
+      <guid>http://example.com/post/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</guid>
       <description>&#34;In Allende’s Chile, a futuristic op room was to bring socialism into the computer age.&#34;
 Link: From the New Yorker - `The Planning Machine&#39; By Evgeny Morozov ``The consultant, Stafford Beer, had been brought in by Chile’s top planners to help guide the country down what Salvador Allende, its democratically elected Marxist leader, was calling `the Chilean road to socialism.&#39; Beer was a leading theorist of cybernetics—a discipline born of midcentury efforts to understand the role of communication in controlling social, biological, and technical systems.</description>
     </item>
     
     <item>
       <title>B-29 Attacks in WWII Japan</title>
-      <link>http://nathanlane.github.io/posts/2014-10-07-b-29-attacks-in-wwii-japan/</link>
+      <link>http://example.com/post/2014-10-07-b-29-attacks-in-wwii-japan/</link>
       <pubDate>Tue, 07 Oct 2014 09:19:02 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-10-07-b-29-attacks-in-wwii-japan/</guid>
+      <guid>http://example.com/post/2014-10-07-b-29-attacks-in-wwii-japan/</guid>
       <description>(From the Maps on the Web blog.)</description>
     </item>
     
     <item>
       <title>Political Economy and Rock n&#39; Roll in Pre-Pol Pot Cambodia</title>
-      <link>http://nathanlane.github.io/posts/2014-09-20-recovering-subcultures-past-political-economy-youth-culture-and-records/</link>
+      <link>http://example.com/post/2014-09-20-recovering-subcultures-past-political-economy-youth-culture-and-records/</link>
       <pubDate>Sat, 20 Sep 2014 17:18:16 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-09-20-recovering-subcultures-past-political-economy-youth-culture-and-records/</guid>
+      <guid>http://example.com/post/2014-09-20-recovering-subcultures-past-political-economy-youth-culture-and-records/</guid>
       <description>(A respite from data- - ) In the 1960s and 70s Cambodia was home an emergent rock scene, inspired by Western rock that was rolling its way into the region. The rise of the Khmer Rouge put a swift end to a subversive subculture. As in the clips below, youth culture isn&#39;t quite compatible with authoritarianism...much less a utopian regime attempting a hard reboot of society to &#34;year zero.&#34;</description>
     </item>
     

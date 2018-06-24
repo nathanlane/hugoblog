@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Code on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/code/</link>
-    <description>Recent content in Code on Nathan Lane</description>
+    <title>Code on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/code/</link>
+    <description>Recent content in Code on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Sun, 20 Dec 2015 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutorial: R Code Style for Empirical Economists</title>
-      <link>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</link>
+      <link>http://example.com/post/2015-12-20-tutorial-r-code-style-for-empirical-economists/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-12-20-tutorial-r-code-style-for-empirical-economists/</guid>
+      <guid>http://example.com/post/2015-12-20-tutorial-r-code-style-for-empirical-economists/</guid>
       <description>Make your code understandable. IBM&#39;s data center in the 1960s, Toronto. Source:ibm-1401.info/ Heuristics, Hunches, &amp;amp; Why the Heck We Care. We hear many horror stories about big names having their results over turned over because of problems in our code. The struggle is real.
 With this in mind, even simple rules of thumb used in programming can have large payoffs for social scientists. Especially since best practices are never discussed in graduate coursework.</description>
     </item>

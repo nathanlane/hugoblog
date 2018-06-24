@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Links on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/links/</link>
-    <description>Recent content in Links on Nathan Lane</description>
+    <title>Links on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/links/</link>
+    <description>Recent content in Links on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Thu, 09 Oct 2014 01:10:15 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/links/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/links/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>On developmentalism, planning, &amp; early big data in Allende&#39;s Chile.</title>
-      <link>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</link>
+      <link>http://example.com/post/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</link>
       <pubDate>Thu, 09 Oct 2014 01:10:15 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</guid>
+      <guid>http://example.com/post/2014-10-09-developmentalism-planning-and-early-big-data-in-allendes-chile/</guid>
       <description>&#34;In Allende’s Chile, a futuristic op room was to bring socialism into the computer age.&#34;
 Link: From the New Yorker - `The Planning Machine&#39; By Evgeny Morozov ``The consultant, Stafford Beer, had been brought in by Chile’s top planners to help guide the country down what Salvador Allende, its democratically elected Marxist leader, was calling `the Chilean road to socialism.&#39; Beer was a leading theorist of cybernetics—a discipline born of midcentury efforts to understand the role of communication in controlling social, biological, and technical systems.</description>
     </item>
     
     <item>
       <title>A great primer on cleaning OCRd data with Python &amp; Regular Expressions.</title>
-      <link>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</link>
+      <link>http://example.com/post/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</link>
       <pubDate>Wed, 03 Sep 2014 06:04:44 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</guid>
+      <guid>http://example.com/post/2014-09-03-a-great-primer-of-cleaning-ocrd-data-with-python-regular-expressions/</guid>
       <description>Link: Cleaning OCR’d text with Regular Expressions Often the pain of optical character recognition isn&#39;t the OCRing procedure itself, it is cleaning the tiny, little inconsistencies that plague OCRd content. This is especially true when we OCR historical material: even high quality scans can have a speckle or two that get recognized as gibberish.
 Adept use of Regular Expressions (regex) coupled with simple Python (or Ruby scripts--or heck, even Notepad++) can be a powerful means of removing nasty errors from OCRd text/CSV files.</description>
     </item>
     
     <item>
       <title>The data on white anxiety over Hispanic immigration</title>
-      <link>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</link>
+      <link>http://example.com/post/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</link>
       <pubDate>Fri, 15 Aug 2014 03:30:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</guid>
+      <guid>http://example.com/post/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</guid>
       <description>The data on white anxiety over Hispanic immigration (Via my pal, UMass Prof. Arin Dube)
 A fantastic piece on racial anxiety and views on race. A nice little combination of academic research and polling insights. 
  </description>
@@ -44,10 +45,10 @@ A fantastic piece on racial anxiety and views on race. A nice little combination
     
     <item>
       <title>Historic Aggregate Data for Korea, 1910-1945 -- and beyond.</title>
-      <link>http://nathanlane.github.io/posts/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</link>
+      <link>http://example.com/post/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</link>
       <pubDate>Fri, 15 Aug 2014 02:56:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</guid>
+      <guid>http://example.com/post/2014-08-15-historic-aggregate-data-for-korea-1910-1945-and/</guid>
       <description>Historic Aggregate Data for Korea, 1910-1945 -- and beyond. Here is a cool batch of datasets (mainly aggregates!) from Korea&amp;#8217;s Nakseongdae Institute of Economic Research, one of which is a nice collection of material covering the colonial Japanese period of Korea (1910-1945). [Just run that sucker through Google translate.]
 If you&amp;#8217;re doing data work in economic history, your life is messy. Even more, if you&amp;#8217;re doing historical work for a developing country, finding the data is often a massive part of the job.</description>
     </item>

@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Visualization on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/visualization/</link>
-    <description>Recent content in Visualization on Nathan Lane</description>
+    <title>Visualization on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/visualization/</link>
+    <description>Recent content in Visualization on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Sun, 01 Nov 2015 10:19:24 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Visualizing Interlocking Directorates, 1913</title>
-      <link>http://nathanlane.github.io/posts/2015-11-01-visualizing-interlocking-directorates-1913/</link>
+      <link>http://example.com/post/2015-11-01-visualizing-interlocking-directorates-1913/</link>
       <pubDate>Sun, 01 Nov 2015 10:19:24 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-11-01-visualizing-interlocking-directorates-1913/</guid>
+      <guid>http://example.com/post/2015-11-01-visualizing-interlocking-directorates-1913/</guid>
       <description>From the St.Louis Fed. Fraser site.  &amp;nbsp; &#34;Exhibit 243: Diagram Showing Affiliations of J.P. Morgan &amp; Co., National City Bank, First National Bank, Guaranty Trust Co. and Bankers Trust Co. of New York City with Large Corporations of the United States&#34; from the FED economic history blog. From the Money Trust Investigation : Investigation of Financial and Monetary Conditions in the United States Under House Resolutions Nos.</description>
     </item>
     
     <item>
       <title>The data on white anxiety over Hispanic immigration</title>
-      <link>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</link>
+      <link>http://example.com/post/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</link>
       <pubDate>Fri, 15 Aug 2014 03:30:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</guid>
+      <guid>http://example.com/post/2014-08-15-the-data-on-white-anxiety-over-hispanic-immigration/</guid>
       <description>The data on white anxiety over Hispanic immigration (Via my pal, UMass Prof. Arin Dube)
 A fantastic piece on racial anxiety and views on race. A nice little combination of academic research and polling insights. 
  </description>

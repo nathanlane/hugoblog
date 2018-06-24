@@ -1,37 +1,41 @@
-baseurl                 = "/"               # Your domain name. Must end with "/"
-languageCode            = "en-us"
-title                   = "Nathan Lane"
-theme                   = "sam"
-pygmentsStyle           = "manni"                     # https://help.farbox.com/pygments.html
-pygmentsCodefences      = true
+BaseUrl= "http://example.com/"
+LanguageCode= "en-EN"
+Title= "Nathan Lane, PhD"
+paginate = 10
+Copyright = "All rights reserved - 2018"
+canonifyurls = true
 
 [params]
-    dateform            = "Mon Jan 02, 2006"
-    dateformfull        = "Mon Jan 2 2006 15:04:05 EST"
-    favicon             = "/sam.ico"
-    homepage            = "main"                        # What to call the home page link
-    galleryFolder       = "images/"                     # Where you've put your images, after "/content/gallery/"
-    clickablePhotos     = true                          # Allow links to the full size images
-    footerText          = "Call me Sam, a theme for Hugo."
+  description = ""
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = "images/background_slow.gif"
+  author = "Nathaniel LANE"
+  authorlocation = "Cambridge, MA"
+  authorwebsite = "http://nathanlane.info"
+  authorbio= "my bio"
+  logo = "images/logo.png"
+  # googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  # githubName = "nathanlane"
+  # twitterName = "straightedge"
+  # facebookName = ""
+  # codepenName = ""
+  # linkedinName = ""
+  # stackoverflowId = ""
+  # keybaseName = ""
+  # flickrName = ""
+  # instagramName = ""
+  # email = ""
+  # pinterestName = ""
+  # googlePlusName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
 
-# Metadata
-    description         = "A new Hugo site."            # Max 160 characters show in search results
-    twitterCard         = "summary_large_image"         # Card value “summary”, “summary_large_image”, “app”, or “player”
-    primaryImage        = "/tn.png"                     # Image that shows on Twitter cards and OpenGraph links
-
-[[params.mainMenu]]
-    link = "/about"
-    text = "1.nathan lane, ph.d."
-
-[[params.mainMenu]]
-    link = "/research"
-    text = "2.research"
-
-[[params.mainMenu]]
-    link = "/posts"
-    text = "3.blog"
-
-[[params.mainMenu]]
-    link = ""
-    text = "_email."
-    
+  [params.social]
+    twitter = "your_twitter"

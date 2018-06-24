@@ -1,526 +1,527 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/</link>
-    <description>Recent content in Tags on Nathan Lane</description>
+    <title>Tags on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/</link>
+    <description>Recent content in Tags on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Tue, 19 Aug 2014 14:01:24 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Archives</title>
-      <link>http://nathanlane.github.io/tags/archives/</link>
+      <link>http://example.com/tags/archives/</link>
       <pubDate>Tue, 19 Aug 2014 14:01:24 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/archives/</guid>
+      <guid>http://example.com/tags/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Articles</title>
-      <link>http://nathanlane.github.io/tags/articles/</link>
+      <link>http://example.com/tags/articles/</link>
       <pubDate>Thu, 09 Oct 2014 01:10:15 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/articles/</guid>
+      <guid>http://example.com/tags/articles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Asian Miracle</title>
-      <link>http://nathanlane.github.io/tags/asian-miracle/</link>
+      <link>http://example.com/tags/asian-miracle/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/asian-miracle/</guid>
+      <guid>http://example.com/tags/asian-miracle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bibliography</title>
-      <link>http://nathanlane.github.io/tags/bibliography/</link>
+      <link>http://example.com/tags/bibliography/</link>
       <pubDate>Mon, 22 Sep 2014 21:19:08 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/bibliography/</guid>
+      <guid>http://example.com/tags/bibliography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cambodia</title>
-      <link>http://nathanlane.github.io/tags/cambodia/</link>
+      <link>http://example.com/tags/cambodia/</link>
       <pubDate>Sat, 20 Sep 2014 17:18:16 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/cambodia/</guid>
+      <guid>http://example.com/tags/cambodia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>http://nathanlane.github.io/tags/code/</link>
+      <link>http://example.com/tags/code/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/code/</guid>
+      <guid>http://example.com/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Crowdsourcing</title>
-      <link>http://nathanlane.github.io/tags/crowdsourcing/</link>
+      <link>http://example.com/tags/crowdsourcing/</link>
       <pubDate>Tue, 30 Sep 2014 03:29:47 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/crowdsourcing/</guid>
+      <guid>http://example.com/tags/crowdsourcing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data</title>
-      <link>http://nathanlane.github.io/tags/data/</link>
+      <link>http://example.com/tags/data/</link>
       <pubDate>Sat, 14 Nov 2015 02:16:17 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/data/</guid>
+      <guid>http://example.com/tags/data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Journalism</title>
-      <link>http://nathanlane.github.io/tags/data-journalism/</link>
+      <link>http://example.com/tags/data-journalism/</link>
       <pubDate>Sat, 23 Aug 2014 18:00:46 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/data-journalism/</guid>
+      <guid>http://example.com/tags/data-journalism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Wrangling</title>
-      <link>http://nathanlane.github.io/tags/data-wrangling/</link>
+      <link>http://example.com/tags/data-wrangling/</link>
       <pubDate>Sat, 14 Nov 2015 02:16:17 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/data-wrangling/</guid>
+      <guid>http://example.com/tags/data-wrangling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dataset</title>
-      <link>http://nathanlane.github.io/tags/dataset/</link>
+      <link>http://example.com/tags/dataset/</link>
       <pubDate>Fri, 25 Jul 2014 17:32:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/dataset/</guid>
+      <guid>http://example.com/tags/dataset/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Datasets</title>
-      <link>http://nathanlane.github.io/tags/datasets/</link>
+      <link>http://example.com/tags/datasets/</link>
       <pubDate>Fri, 15 Aug 2014 02:56:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/datasets/</guid>
+      <guid>http://example.com/tags/datasets/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital History</title>
-      <link>http://nathanlane.github.io/tags/digital-history/</link>
+      <link>http://example.com/tags/digital-history/</link>
       <pubDate>Sat, 28 Nov 2015 01:51:41 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/digital-history/</guid>
+      <guid>http://example.com/tags/digital-history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Econometrics</title>
-      <link>http://nathanlane.github.io/tags/econometrics/</link>
+      <link>http://example.com/tags/econometrics/</link>
       <pubDate>Sat, 19 Jul 2014 14:01:37 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/econometrics/</guid>
+      <guid>http://example.com/tags/econometrics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Economic History</title>
-      <link>http://nathanlane.github.io/tags/economic-history/</link>
+      <link>http://example.com/tags/economic-history/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/economic-history/</guid>
+      <guid>http://example.com/tags/economic-history/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Finereader</title>
-      <link>http://nathanlane.github.io/tags/finereader/</link>
+      <link>http://example.com/tags/finereader/</link>
       <pubDate>Sun, 05 Oct 2014 02:05:28 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/finereader/</guid>
+      <guid>http://example.com/tags/finereader/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Friends</title>
-      <link>http://nathanlane.github.io/tags/friends/</link>
+      <link>http://example.com/tags/friends/</link>
       <pubDate>Tue, 22 Jul 2014 01:38:59 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/friends/</guid>
+      <guid>http://example.com/tags/friends/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gis</title>
-      <link>http://nathanlane.github.io/tags/gis/</link>
+      <link>http://example.com/tags/gis/</link>
       <pubDate>Sat, 23 Aug 2014 18:00:46 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/gis/</guid>
+      <guid>http://example.com/tags/gis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Googlemaps</title>
-      <link>http://nathanlane.github.io/tags/googlemaps/</link>
+      <link>http://example.com/tags/googlemaps/</link>
       <pubDate>Sat, 23 Aug 2014 18:00:46 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/googlemaps/</guid>
+      <guid>http://example.com/tags/googlemaps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Historic Data</title>
-      <link>http://nathanlane.github.io/tags/historic-data/</link>
+      <link>http://example.com/tags/historic-data/</link>
       <pubDate>Fri, 15 Aug 2014 02:56:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/historic-data/</guid>
+      <guid>http://example.com/tags/historic-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Howtos</title>
-      <link>http://nathanlane.github.io/tags/howtos/</link>
+      <link>http://example.com/tags/howtos/</link>
       <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/howtos/</guid>
+      <guid>http://example.com/tags/howtos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Immigration</title>
-      <link>http://nathanlane.github.io/tags/immigration/</link>
+      <link>http://example.com/tags/immigration/</link>
       <pubDate>Fri, 15 Aug 2014 03:30:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/immigration/</guid>
+      <guid>http://example.com/tags/immigration/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Korea</title>
-      <link>http://nathanlane.github.io/tags/korea/</link>
+      <link>http://example.com/tags/korea/</link>
       <pubDate>Fri, 15 Aug 2014 02:56:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/korea/</guid>
+      <guid>http://example.com/tags/korea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Laws</title>
-      <link>http://nathanlane.github.io/tags/laws/</link>
+      <link>http://example.com/tags/laws/</link>
       <pubDate>Fri, 25 Jul 2014 17:32:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/laws/</guid>
+      <guid>http://example.com/tags/laws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://nathanlane.github.io/tags/links/</link>
+      <link>http://example.com/tags/links/</link>
       <pubDate>Thu, 09 Oct 2014 01:10:15 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/links/</guid>
+      <guid>http://example.com/tags/links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Machine Learning</title>
-      <link>http://nathanlane.github.io/tags/machine-learning/</link>
+      <link>http://example.com/tags/machine-learning/</link>
       <pubDate>Mon, 22 Sep 2014 21:19:08 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/machine-learning/</guid>
+      <guid>http://example.com/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Media</title>
-      <link>http://nathanlane.github.io/tags/media/</link>
+      <link>http://example.com/tags/media/</link>
       <pubDate>Fri, 15 Aug 2014 03:30:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/media/</guid>
+      <guid>http://example.com/tags/media/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Methods</title>
-      <link>http://nathanlane.github.io/tags/methods/</link>
+      <link>http://example.com/tags/methods/</link>
       <pubDate>Tue, 30 Sep 2014 03:29:47 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/methods/</guid>
+      <guid>http://example.com/tags/methods/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Music</title>
-      <link>http://nathanlane.github.io/tags/music/</link>
+      <link>http://example.com/tags/music/</link>
       <pubDate>Sat, 20 Sep 2014 17:18:16 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/music/</guid>
+      <guid>http://example.com/tags/music/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nonparametric</title>
-      <link>http://nathanlane.github.io/tags/nonparametric/</link>
+      <link>http://example.com/tags/nonparametric/</link>
       <pubDate>Sat, 19 Jul 2014 14:01:37 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/nonparametric/</guid>
+      <guid>http://example.com/tags/nonparametric/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ocr</title>
-      <link>http://nathanlane.github.io/tags/ocr/</link>
+      <link>http://example.com/tags/ocr/</link>
       <pubDate>Sat, 06 Dec 2014 13:42:46 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/ocr/</guid>
+      <guid>http://example.com/tags/ocr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Oldstuf</title>
-      <link>http://nathanlane.github.io/tags/oldstuf/</link>
+      <link>http://example.com/tags/oldstuf/</link>
       <pubDate>Sun, 17 Aug 2014 01:45:29 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/oldstuf/</guid>
+      <guid>http://example.com/tags/oldstuf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pdf</title>
-      <link>http://nathanlane.github.io/tags/pdf/</link>
+      <link>http://example.com/tags/pdf/</link>
       <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/pdf/</guid>
+      <guid>http://example.com/tags/pdf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Philippines</title>
-      <link>http://nathanlane.github.io/tags/philippines/</link>
+      <link>http://example.com/tags/philippines/</link>
       <pubDate>Fri, 25 Jul 2014 17:32:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/philippines/</guid>
+      <guid>http://example.com/tags/philippines/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photos</title>
-      <link>http://nathanlane.github.io/tags/photos/</link>
+      <link>http://example.com/tags/photos/</link>
       <pubDate>Tue, 07 Oct 2014 09:19:02 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/photos/</guid>
+      <guid>http://example.com/tags/photos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Political Science</title>
-      <link>http://nathanlane.github.io/tags/political-science/</link>
+      <link>http://example.com/tags/political-science/</link>
       <pubDate>Tue, 30 Sep 2014 03:29:47 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/political-science/</guid>
+      <guid>http://example.com/tags/political-science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Polling</title>
-      <link>http://nathanlane.github.io/tags/polling/</link>
+      <link>http://example.com/tags/polling/</link>
       <pubDate>Fri, 15 Aug 2014 03:30:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/polling/</guid>
+      <guid>http://example.com/tags/polling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Productivity.</title>
-      <link>http://nathanlane.github.io/tags/productivity./</link>
+      <link>http://example.com/tags/productivity./</link>
       <pubDate>Tue, 22 Jul 2014 01:38:59 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/productivity./</guid>
+      <guid>http://example.com/tags/productivity./</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>http://nathanlane.github.io/tags/programming/</link>
+      <link>http://example.com/tags/programming/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/programming/</guid>
+      <guid>http://example.com/tags/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Punks</title>
-      <link>http://nathanlane.github.io/tags/punks/</link>
+      <link>http://example.com/tags/punks/</link>
       <pubDate>Tue, 22 Jul 2014 01:38:59 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/punks/</guid>
+      <guid>http://example.com/tags/punks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://nathanlane.github.io/tags/python/</link>
+      <link>http://example.com/tags/python/</link>
       <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/python/</guid>
+      <guid>http://example.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Quantileregressions</title>
-      <link>http://nathanlane.github.io/tags/quantileregressions/</link>
+      <link>http://example.com/tags/quantileregressions/</link>
       <pubDate>Sat, 19 Jul 2014 14:01:37 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/quantileregressions/</guid>
+      <guid>http://example.com/tags/quantileregressions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>http://nathanlane.github.io/tags/r/</link>
+      <link>http://example.com/tags/r/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/r/</guid>
+      <guid>http://example.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reblog</title>
-      <link>http://nathanlane.github.io/tags/reblog/</link>
+      <link>http://example.com/tags/reblog/</link>
       <pubDate>Tue, 19 Aug 2014 14:01:24 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/reblog/</guid>
+      <guid>http://example.com/tags/reblog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Regex</title>
-      <link>http://nathanlane.github.io/tags/regex/</link>
+      <link>http://example.com/tags/regex/</link>
       <pubDate>Sun, 05 Oct 2014 02:05:28 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/regex/</guid>
+      <guid>http://example.com/tags/regex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reviews</title>
-      <link>http://nathanlane.github.io/tags/reviews/</link>
+      <link>http://example.com/tags/reviews/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/reviews/</guid>
+      <guid>http://example.com/tags/reviews/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Riotgrrl</title>
-      <link>http://nathanlane.github.io/tags/riotgrrl/</link>
+      <link>http://example.com/tags/riotgrrl/</link>
       <pubDate>Fri, 15 Aug 2014 12:02:01 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/riotgrrl/</guid>
+      <guid>http://example.com/tags/riotgrrl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Routines</title>
-      <link>http://nathanlane.github.io/tags/routines/</link>
+      <link>http://example.com/tags/routines/</link>
       <pubDate>Tue, 22 Jul 2014 01:38:59 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/routines/</guid>
+      <guid>http://example.com/tags/routines/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rstats</title>
-      <link>http://nathanlane.github.io/tags/rstats/</link>
+      <link>http://example.com/tags/rstats/</link>
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/rstats/</guid>
+      <guid>http://example.com/tags/rstats/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Stata</title>
-      <link>http://nathanlane.github.io/tags/stata/</link>
+      <link>http://example.com/tags/stata/</link>
       <pubDate>Sat, 19 Jul 2014 14:01:37 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/stata/</guid>
+      <guid>http://example.com/tags/stata/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Structural Change</title>
-      <link>http://nathanlane.github.io/tags/structural-change/</link>
+      <link>http://example.com/tags/structural-change/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/structural-change/</guid>
+      <guid>http://example.com/tags/structural-change/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Subculture</title>
-      <link>http://nathanlane.github.io/tags/subculture/</link>
+      <link>http://example.com/tags/subculture/</link>
       <pubDate>Fri, 15 Aug 2014 12:02:01 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/subculture/</guid>
+      <guid>http://example.com/tags/subculture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorails</title>
-      <link>http://nathanlane.github.io/tags/tutorails/</link>
+      <link>http://example.com/tags/tutorails/</link>
       <pubDate>Sun, 19 Oct 2014 16:16:08 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/tutorails/</guid>
+      <guid>http://example.com/tags/tutorails/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorials</title>
-      <link>http://nathanlane.github.io/tags/tutorials/</link>
+      <link>http://example.com/tags/tutorials/</link>
       <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/tutorials/</guid>
+      <guid>http://example.com/tags/tutorials/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vietnam</title>
-      <link>http://nathanlane.github.io/tags/vietnam/</link>
+      <link>http://example.com/tags/vietnam/</link>
       <pubDate>Wed, 12 Nov 2014 02:47:50 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/vietnam/</guid>
+      <guid>http://example.com/tags/vietnam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>http://nathanlane.github.io/tags/visualization/</link>
+      <link>http://example.com/tags/visualization/</link>
       <pubDate>Sun, 01 Nov 2015 10:19:24 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/visualization/</guid>
+      <guid>http://example.com/tags/visualization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Work</title>
-      <link>http://nathanlane.github.io/tags/work/</link>
+      <link>http://example.com/tags/work/</link>
       <pubDate>Tue, 22 Jul 2014 01:38:59 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/tags/work/</guid>
+      <guid>http://example.com/tags/work/</guid>
       <description></description>
     </item>
     

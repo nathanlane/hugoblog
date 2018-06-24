@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Work on Nathan Lane</title>
-    <link>http://nathanlane.github.io/tags/work/</link>
-    <description>Recent content in Work on Nathan Lane</description>
+    <title>Work on Nathan Lane, PhD</title>
+    <link>http://example.com/tags/work/</link>
+    <description>Recent content in Work on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Tue, 22 Jul 2014 01:38:59 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/tags/work/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/tags/work/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://nathanlane.github.io/posts/2014-07-22-a-great-little-bit-on-the-practice-work-style-of/</link>
+      <link>http://example.com/post/2014-07-22-a-great-little-bit-on-the-practice-work-style-of/</link>
       <pubDate>Tue, 22 Jul 2014 01:38:59 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-07-22-a-great-little-bit-on-the-practice-work-style-of/</guid>
+      <guid>http://example.com/post/2014-07-22-a-great-little-bit-on-the-practice-work-style-of/</guid>
       <description>A great little bit on the practice/work style of my friend, Erin Riley, a textile artist. (http://www.emptykingdom.com/featured/one-piece-of-art-erin-riley/)
  How do you start your day? Is there something you do every morning?
 I usually just make sure I have a decent amount of coffee and water within reach and make sure I have all the colors I need to work for a while. I turn on all the lights, fans, take my vitamins, check my email and then get to weaving.</description>

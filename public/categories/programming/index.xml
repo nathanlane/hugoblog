@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Nathan Lane</title>
-    <link>http://nathanlane.github.io/categories/programming/</link>
-    <description>Recent content in Programming on Nathan Lane</description>
+    <title>Programming on Nathan Lane, PhD</title>
+    <link>http://example.com/categories/programming/</link>
+    <description>Recent content in Programming on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Fri, 20 Nov 2015 12:08:48 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Quick Notes - Coding Stata do-files with Sublime in Unix/Linux</title>
-      <link>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</link>
+      <link>http://example.com/post/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</link>
       <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</guid>
+      <guid>http://example.com/post/2015-11-20-quick-notes-coding-stata-do-file-with-sublime-in-unixlinux/</guid>
       <description>I am used to writing code in notepad programs, such as N++ and the fantastic Sublime Text 3. Here&#39;s a quick note on connecting a powerful coding notepad in Linux to Stata.
 &amp;nbsp; Sublime, like many of these programming-oriented editing notepads, have massively powerful tools that crush Stata&#39;s default editor. Moreover, since many people are simultaneously juggling Python, R, and Stata (and more) scripts for a single project, the ability to work from one programming-oriented environment is nice.</description>
     </item>
     
     <item>
       <title>Data Janitors &amp; Data Carpentry.</title>
-      <link>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</link>
+      <link>http://example.com/post/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</link>
       <pubDate>Sat, 14 Nov 2015 02:16:17 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</guid>
+      <guid>http://example.com/post/2015-11-14-benefits-dirty-hands-data-carpentry-data-janitorial-work/</guid>
       <description>Data Janitors and Data Carpentry: value in the nitty gritty?  &#34;Report on the investigation of engineer and janitor service, Board of education, city of Chicago&#34; (1913)  The fantastic machine learning-oriented podcast, Talking Machines, had an interview with computer scientist, David Mimno (also: his course syllabus on text mining for historians is awesome.). They spent some time discussing a recent essay by Mimno, that riffed off the New York Times &#34;</description>
     </item>
     

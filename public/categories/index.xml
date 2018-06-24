@@ -1,157 +1,158 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Nathan Lane</title>
-    <link>http://nathanlane.github.io/categories/</link>
-    <description>Recent content in Categories on Nathan Lane</description>
+    <title>Categories on Nathan Lane, PhD</title>
+    <link>http://example.com/categories/</link>
+    <description>Recent content in Categories on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Fri, 19 Dec 2014 00:28:12 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bibliographies</title>
-      <link>http://nathanlane.github.io/categories/bibliographies/</link>
+      <link>http://example.com/categories/bibliographies/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/bibliographies/</guid>
+      <guid>http://example.com/categories/bibliographies/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Input Output</title>
-      <link>http://nathanlane.github.io/categories/input-output/</link>
+      <link>http://example.com/categories/input-output/</link>
       <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/input-output/</guid>
+      <guid>http://example.com/categories/input-output/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>http://nathanlane.github.io/categories/links/</link>
+      <link>http://example.com/categories/links/</link>
       <pubDate>Sat, 28 Nov 2015 01:51:41 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/links/</guid>
+      <guid>http://example.com/categories/links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://nathanlane.github.io/categories/linux/</link>
+      <link>http://example.com/categories/linux/</link>
       <pubDate>Sun, 08 Nov 2015 18:28:05 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/linux/</guid>
+      <guid>http://example.com/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Methodological</title>
-      <link>http://nathanlane.github.io/categories/methodological/</link>
+      <link>http://example.com/categories/methodological/</link>
       <pubDate>Sat, 14 Nov 2015 02:16:17 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/methodological/</guid>
+      <guid>http://example.com/categories/methodological/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Not Data</title>
-      <link>http://nathanlane.github.io/categories/not-data/</link>
+      <link>http://example.com/categories/not-data/</link>
       <pubDate>Sat, 28 Nov 2015 01:51:41 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/not-data/</guid>
+      <guid>http://example.com/categories/not-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ocr for Economists</title>
-      <link>http://nathanlane.github.io/categories/ocr-for-economists/</link>
+      <link>http://example.com/categories/ocr-for-economists/</link>
       <pubDate>Sat, 06 Dec 2014 13:42:46 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/ocr-for-economists/</guid>
+      <guid>http://example.com/categories/ocr-for-economists/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Political Economy</title>
-      <link>http://nathanlane.github.io/categories/political-economy/</link>
+      <link>http://example.com/categories/political-economy/</link>
       <pubDate>Tue, 30 Sep 2014 03:29:47 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/political-economy/</guid>
+      <guid>http://example.com/categories/political-economy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Programming</title>
-      <link>http://nathanlane.github.io/categories/programming/</link>
+      <link>http://example.com/categories/programming/</link>
       <pubDate>Fri, 20 Nov 2015 12:08:48 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/programming/</guid>
+      <guid>http://example.com/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
-      <link>http://nathanlane.github.io/categories/python/</link>
+      <link>http://example.com/categories/python/</link>
       <pubDate>Wed, 03 Sep 2014 06:04:44 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/python/</guid>
+      <guid>http://example.com/categories/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reviews</title>
-      <link>http://nathanlane.github.io/categories/reviews/</link>
+      <link>http://example.com/categories/reviews/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/reviews/</guid>
+      <guid>http://example.com/categories/reviews/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Structural Change</title>
-      <link>http://nathanlane.github.io/categories/structural-change/</link>
+      <link>http://example.com/categories/structural-change/</link>
       <pubDate>Fri, 19 Dec 2014 00:28:12 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/structural-change/</guid>
+      <guid>http://example.com/categories/structural-change/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>http://nathanlane.github.io/categories/tutorial/</link>
+      <link>http://example.com/categories/tutorial/</link>
       <pubDate>Fri, 31 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/tutorial/</guid>
+      <guid>http://example.com/categories/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorials</title>
-      <link>http://nathanlane.github.io/categories/tutorials/</link>
+      <link>http://example.com/categories/tutorials/</link>
       <pubDate>Sun, 20 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/tutorials/</guid>
+      <guid>http://example.com/categories/tutorials/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Video</title>
-      <link>http://nathanlane.github.io/categories/video/</link>
+      <link>http://example.com/categories/video/</link>
       <pubDate>Wed, 12 Nov 2014 02:47:50 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/video/</guid>
+      <guid>http://example.com/categories/video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>http://nathanlane.github.io/categories/visualization/</link>
+      <link>http://example.com/categories/visualization/</link>
       <pubDate>Tue, 19 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/categories/visualization/</guid>
+      <guid>http://example.com/categories/visualization/</guid>
       <description></description>
     </item>
     

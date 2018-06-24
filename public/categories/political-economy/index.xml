@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Political Economy on Nathan Lane</title>
-    <link>http://nathanlane.github.io/categories/political-economy/</link>
-    <description>Recent content in Political Economy on Nathan Lane</description>
+    <title>Political Economy on Nathan Lane, PhD</title>
+    <link>http://example.com/categories/political-economy/</link>
+    <description>Recent content in Political Economy on Nathan Lane, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2018</copyright>
     <lastBuildDate>Tue, 30 Sep 2014 03:29:47 +0000</lastBuildDate>
     
-	<atom:link href="http://nathanlane.github.io/categories/political-economy/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.com/categories/political-economy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Text Analysis, (Non-) Experts, and Turning &#34;Stuff&#34; into Social Science Data</title>
-      <link>http://nathanlane.github.io/posts/2014-09-30-text-analysis-experts-and-turning-stuff-into-data-for-social-sciences/</link>
+      <link>http://example.com/post/2014-09-30-text-analysis-experts-and-turning-stuff-into-data-for-social-sciences/</link>
       <pubDate>Tue, 30 Sep 2014 03:29:47 +0000</pubDate>
       
-      <guid>http://nathanlane.github.io/posts/2014-09-30-text-analysis-experts-and-turning-stuff-into-data-for-social-sciences/</guid>
+      <guid>http://example.com/post/2014-09-30-text-analysis-experts-and-turning-stuff-into-data-for-social-sciences/</guid>
       <description>Social scientists often use experts to &#34;code&#34; datasets; experts read some stuff and code that stuff using a coding rule (a right-left political spectrum, etc.). But this a slow, painful process for constructing a dataset
 Below is an awesome, succinct Kickstarter seminar on how to categorize (political) text using crowd-sourcing from quant-y political scientist, Drew Conway (http://drewconway.com/):
 
